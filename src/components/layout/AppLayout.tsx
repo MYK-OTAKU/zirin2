@@ -18,7 +18,7 @@ export function AppLayout({ children }: AppLayoutProps) {
 
       <main
         id="main-content"
-        className="relative flex flex-1 flex-col pb-24 lg:overflow-hidden lg:pb-24"
+        className="relative flex flex-1 flex-col lg:overflow-hidden"
       >
         <PageTransition>{children}</PageTransition>
       </main>

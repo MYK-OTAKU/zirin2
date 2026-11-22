@@ -18,12 +18,12 @@ export function HomeBackdrop() {
         className="h-full w-full object-cover object-right-bottom"
       />
 
-      {/* Soft ivory readability veil on the left for smaller viewports */}
+      {/* Soft centered ivory readability veil */}
       <div
-        className="absolute inset-0"
+        className="absolute "
         style={{
           background:
-            'linear-gradient(90deg, rgba(255, 249, 240, 0.82) 0%, rgba(255, 249, 240, 0.45) 45%, rgba(255, 249, 240, 0) 75%)',
+            'radial-gradient(ellipse 75% 65% at 50% 48%, rgba(255, 249, 240, 0.78) 0%, rgba(255, 249, 240, 0.42) 60%, rgba(255, 249, 240, 0.12) 100%)',
         }}
       />
     </div>

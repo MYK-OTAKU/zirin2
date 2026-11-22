@@ -17,28 +17,13 @@ export function ZirinBrand({ className = '' }: ZirinBrandProps) {
     >
       <span
         aria-hidden="true"
-        className="flex h-9 w-9 items-center justify-center rounded-full bg-zirin-brown text-zirin-ivory shadow-sm transition-transform duration-200 group-hover:scale-105"
+        className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-zirin-brown/15 bg-zirin-ivory shadow-sm transition-transform duration-200 group-hover:scale-105"
       >
-        <svg
-          viewBox="0 0 32 32"
-          fill="none"
-          className="h-5 w-5"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="16" cy="11" r="4.5" fill="#E87924" />
-          <path
-            d="M7 22.5C10 19.5 13 18.5 16 18.5C19 18.5 22 19.5 25 22.5"
-            stroke="#FFF9F0"
-            strokeWidth="2.4"
-            strokeLinecap="round"
-          />
-          <path
-            d="M11 25.5C12.8 24.3 14.4 23.8 16 23.8C17.6 23.8 19.2 24.3 21 25.5"
-            stroke="#F6E8D2"
-            strokeWidth="1.8"
-            strokeLinecap="round"
-          />
-        </svg>
+        <img
+          src="/images/zirin-logo.jpg"
+          alt=""
+          className="h-full w-full object-cover"
+        />
       </span>
       <span className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-zirin-brown">
         Zirin
