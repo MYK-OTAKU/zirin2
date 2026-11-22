@@ -1,0 +1,30 @@
+/*
+ * Zirin Design System Tokens (Provisional — see DESIGN_SYSTEM.md)
+ * Palette: warm orange, deep brown, sand, ivory, ink.
+ */
+@theme {
+  /* Core brand palette */
+  --color-zirin-primary: #e87924;
+  --color-zirin-primary-hover: #d16615;
+  --color-zirin-primary-text: #b8530b; /* WCAG AA on ivory/sand */
+  --color-zirin-brown: #8b451f;
+  --color-zirin-brown-deep: #5e2d13;
+  --color-zirin-sand: #f6e8d2;
+  --color-zirin-sand-strong: #ead4b3;
+  --color-zirin-ivory: #fff9f0;
+  --color-zirin-ink: #33251d;
+  --color-zirin-ink-muted: #665144;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Radii */
+  --radius-dock: 9999px;
+  --radius-card: 1.25rem;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-dock: 0 12px 32px -8px rgba(51, 37, 29, 0.18), 0 2px 8px -2px rgba(51, 37, 29, 0.08);
+  --shadow-cta: 0 8px 20px -6px rgba(232, 121, 36, 0.45);
+}

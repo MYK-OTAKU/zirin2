@@ -1,0 +1,47 @@
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { AppLayout } from '../components/layout/AppLayout';
+import { ErrorBoundary } from '../components/layout/ErrorBoundary';
+import { ComingSoonPage } from '../pages/ComingSoonPage';
+import { HomePage } from '../pages/HomePage';
+
+export function App() {
+  return (
+    <ErrorBoundary>
+      <BrowserRouter>
+        <AppLayout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route
+              path="/devinettes"
+              element={
+                <ComingSoonPage
+                  title="Devinettes"
+                  description="L'espace de devinettes interactives (niveaux, quatre propositions et explications) sera développé dans la prochaine étape."
+                />
+              }
+            />
+            <Route
+              path="/contes"
+              element={
+                <ComingSoonPage
+                  title="Catalogue de contes"
+                  description="Le catalogue des contes avec recherche, filtres et lecture immersive sera développé dans la prochaine étape."
+                />
+              }
+            />
+            <Route
+              path="/contact"
+              element={
+                <ComingSoonPage
+                  title="Contact et suggestions"
+                  description="L'écran de démonstration pour proposer un conte ou une devinette sera développé dans la prochaine étape."
+                />
+              }
+            />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </AppLayout>
+      </BrowserRouter>
+    </ErrorBoundary>
+  );
+}

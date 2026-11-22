@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+@layer base {
+  html {
+    background-color: var(--color-zirin-ivory);
+    color: var(--color-zirin-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--color-zirin-ivory);
+    color: var(--color-zirin-ink);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    color: var(--color-zirin-brown);
+    letter-spacing: -0.015em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-zirin-primary);
+    outline-offset: 3px;
+  }
+}
+
+/* Subtle book-page entrance transition */
+@keyframes page-turn-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.zirin-page-enter {
+  animation: page-turn-in 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Stickman gentle idle motion */
+@keyframes zirin-gentle-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.zirin-character-animate {
+  animation: zirin-gentle-float 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zirin-page-enter,
+  .zirin-character-animate {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
