@@ -18,11 +18,11 @@ Convention : [ ] à faire ; [x] terminé. Chaque tâche est validée par un rés
 
 ## Développement
 - [x] Initialiser projet SPA + Tailwind (critère : build et lint OK).
-- [ ] Définir types et schémas JSON (critère : contenus invalides détectés).
+- [x] Définir types et schémas JSON pour le corpus des contes (critère : contenus invalides détectés au chargement).
 - [x] Construire layout, routes et navigation (critère : accès direct aux routes).
 - [x] Implémenter accueil (critère : CTA et navigation opérationnels).
-- [ ] Implémenter catalogue (critère : recherche, filtres, états vides).
-- [ ] Implémenter détail du conte (critère : lecture longue, illustrations, audio facultatif).
+- [x] Implémenter catalogue de contes (critère : recherche, filtres, états vides).
+- [x] Implémenter détail du conte (critère : lecture longue, illustrations disponibles, audio facultatif).
 - [ ] Implémenter devinettes (critère : niveaux, 4 choix, feedback, suite).
 - [ ] Décider canal Contact/Suggestions (critère : pas de fausse confirmation d'envoi).
 - [ ] Ajouter tests de parcours, accessibilité et responsive (critère : cas nominaux/limites couverts).
@@ -30,7 +30,7 @@ Convention : [ ] à faire ; [x] terminé. Chaque tâche est validée par un rés
 
 ## Documentation continue
 - [ ] Documenter toute décision structurante dans ARCHITECTURE.md.
-- [ ] Reporter les modifications réalisées dans CHANGELOG.md.
+- [x] Reporter les modifications réalisées dans CHANGELOG.md.
 - [ ] Cocher les tâches uniquement après validation réelle.
 - [ ] Garder le backlog post-MVP séparé du MVP.
 

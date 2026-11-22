@@ -2,6 +2,10 @@
 Toutes les évolutions effectives du produit sont consignées ici ; ne pas confondre décision de cadrage et fonctionnalité livrée.
 
 ## [Unreleased] — 2026-11-21
+### Ajouté
+- Intégration du corpus local de 15 contes, avec validation de structure et de slugs avant affichage.
+- Catalogue avec recherche, filtres par catégorie et âge, compte de résultats et état vide.
+- Pages de lecture par slug avec récit complet, morale, indication éditoriale et absence honnête d'audio non fourni.
 ### Cadrage
 - Vision et périmètre du MVP de démonstration définis.
 - Parcours : accueil, devinettes, catalogue, détail d'un conte, contact/suggestions.

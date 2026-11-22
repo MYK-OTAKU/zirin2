@@ -3,6 +3,8 @@ import { AppLayout } from '../components/layout/AppLayout';
 import { ErrorBoundary } from '../components/layout/ErrorBoundary';
 import { ComingSoonPage } from '../pages/ComingSoonPage';
 import { HomePage } from '../pages/HomePage';
+import { TaleDetailPage } from '../pages/TaleDetailPage';
+import { TalesPage } from '../pages/TalesPage';
 
 export function App() {
   return (
@@ -20,15 +22,8 @@ export function App() {
                 />
               }
             />
-            <Route
-              path="/contes"
-              element={
-                <ComingSoonPage
-                  title="Catalogue de contes"
-                  description="Le catalogue des contes avec recherche, filtres et lecture immersive sera développé dans la prochaine étape."
-                />
-              }
-            />
+            <Route path="/contes" element={<TalesPage />} />
+            <Route path="/contes/:slug" element={<TaleDetailPage />} />
             <Route
               path="/contact"
               element={

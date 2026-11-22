@@ -71,3 +71,9 @@ Les maquettes interactives sont construites directement dans ce socle, sans outi
 ### Préparation de l'envoi d'e-mails post-MVP
 Créer plus tard une interface de service `SuggestionSubmissionService` sans l'implémenter réellement dans le MVP.
 Un service tiers d'envoi de courriels doit être appelé **côté serveur** pour protéger les clés API, valider les entrées, limiter le spam et journaliser les erreurs sans données sensibles.
+
+### Implémentation du catalogue de contes
+- Le corpus versionné est conservé dans `src/data/zirin-contes-15-corrige.json` et importé par `src/data/tales.ts`.
+- Le dépôt local valide à l'exécution la structure consommée par l'interface, le nombre d'entrées et l'unicité des identifiants/slugs avant de fournir les contes aux pages.
+- Les routes `/contes` et `/contes/:slug` affichent respectivement la recherche et les filtres locaux, puis la lecture textuelle complète. Les routes audio restent absentes lorsqu'aucun média n'est fourni.
+- Les couvertures non renseignées ne sont pas remplacées par de fausses images. La provenance éditoriale de chaque récit reste visible dans la page de lecture.

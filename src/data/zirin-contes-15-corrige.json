@@ -1,0 +1,608 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Zirin — Corpus de 15 contes",
+  "language": "fr",
+  "editorialNote": "Les 15 récits de ce fichier sont des créations originales contemporaines inspirées de thèmes, de motifs narratifs et d'éléments de la vie ouest-africaine. Ils ne sont pas des transcriptions ni des adaptations fidèles des contes bambara recueillis dans les ouvrages évoqués précédemment. Aucune provenance traditionnelle précise n'est revendiquée. Pour publier un récit comme patrimoine authentifié, il faut le confronter à une source orale ou éditée identifiable et vérifier les droits.",
+  "tales": [
+    {
+      "id": "conte-001",
+      "title": "Histoire de création",
+      "slug": "histoire-de-creation",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Origines et sagesse",
+      "summary": "La tortue enseigne aux premières créatures que le monde ne peut vivre que dans l'équilibre.",
+      "content": {
+        "introduction": "Il fut un temps où la terre venait tout juste de naître et cherchait encore son harmonie.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Au commencement, la terre était silencieuse. Le ciel brillait et les eaux coulaient, mais les créatures ne savaient pas encore vivre ensemble. Le Grand Souffle donna des ailes à l'oiseau, des nageoires au poisson, des jambes à l'antilope et une carapace à la tortue. Cette dernière demanda pourquoi elle avançait si lentement. « Tu auras le temps d'observer ce que les autres oublient », répondit le Grand Souffle."
+          },
+          {
+            "title": "La leçon",
+            "text": "Bientôt, chacun voulut posséder son domaine. L'oiseau réclamait le ciel, le poisson toute l'eau et l'antilope chaque sentier. Ils prenaient tant de ressources que le fleuve baissa. La tortue les conduisit jusqu'à la source et leur montra les berges asséchées. « Vos dons sont différents, mais aucun ne suffit à lui seul. » Les créatures protégèrent les arbres, creusèrent de petits canaux et ne prirent que ce dont elles avaient besoin. Le fleuve retrouva son chant."
+          }
+        ],
+        "conclusion": "Depuis ce jour, chaque créature veille sur sa part du monde afin que l'eau continue de chanter pour tous."
+      },
+      "moral": "La diversité est une richesse : chacun a un don et une responsabilité envers les autres.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "origines et sagesse",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-002",
+      "title": "Le roi qui voulait garder sa fille",
+      "slug": "le-roi-qui-voulait-garder-sa-fille",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Famille et liberté",
+      "summary": "Une princesse aide son peuple et apprend à son père que protéger n'est pas enfermer.",
+      "content": {
+        "introduction": "Derrière les hauts murs de son palais, un souverain croyait pouvoir mettre sa fille à l'abri de tous les maux du monde.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Le roi Faramaba aimait sa fille Nènè, mais son affection était devenue une clôture. Il lui interdisait de sortir du palais et refusait qu'elle apprenne à soigner les habitants. « Je veux servir le royaume », lui dit-elle. « Tu es princesse, tu dois rester ici », répondit-il."
+          },
+          {
+            "title": "La leçon",
+            "text": "Une fièvre frappa un village voisin. Nènè demanda encore à sortir. Le roi refusa, jusqu'au jour où il entendit depuis la cour les appels des familles qui manquaient d'eau propre et de remèdes. Il ouvrit enfin les portes et accompagna sa fille. Nènè aida une soigneuse à préparer des plantes et à organiser de l'eau potable. Le roi apporta des vivres. Le soir, il lui dit : « Je voulais te garder près de moi parce que je t'aime. J'ai oublié que t'aimer, c'est aussi te laisser grandir. »"
+          }
+        ],
+        "conclusion": "Les portes du palais restèrent dès lors ouvertes, et la sagesse de Nènè devint la fierté de tout le royaume."
+      },
+      "moral": "Aimer, c'est aussi laisser grandir et faire des choix responsables.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "famille et liberté",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-003",
+      "title": "Une fille difficile à obtenir",
+      "slug": "une-fille-difficile-a-obtenir",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Courage et discernement",
+      "summary": "Une jeune femme juge les prétendants sur leurs actes plutôt que sur leurs richesses.",
+      "content": {
+        "introduction": "Dans tout le canton, les jeunes gens rivalisaient de promesses pour obtenir la main de la sage Kadi.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Kadi était connue pour son intelligence et son franc-parler. Plusieurs jeunes hommes demandèrent sa main. Elle annonça qu'elle choisirait elle-même après avoir observé leurs actes. Elle proposa trois épreuves : porter de l'eau à une vieille voisine sans la renverser, rendre un objet trouvé sur le chemin et aider à réparer le toit de l'école."
+          },
+          {
+            "title": "La leçon",
+            "text": "Le premier prétendant paya quelqu'un pour porter l'eau. Le deuxième garda une bourse trouvée près du puits. Balla, le troisième, accomplit les tâches avec l'aide des habitants. Quand l'orage arriva, le toit réparé protégea les cahiers. Kadi demanda à chacun ce qu'il avait appris. Balla reconnut qu'il avait eu peur de ne pas finir, mais qu'il avait accepté l'aide des autres. Kadi choisit de mieux le connaître. Elle ne cherchait ni le plus riche ni le plus bruyant, mais quelqu'un qui respectait les autres."
+          }
+        ],
+        "conclusion": "Ainsi, le village comprit que la droiture des gestes quotidiens pèse plus lourd que toutes les parures."
+      },
+      "moral": "Les actes, l'honnêteté et le respect valent davantage que les belles paroles.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "courage et discernement",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-004",
+      "title": "Le nom qu'il faut trouver",
+      "slug": "le-nom-quil-faut-trouver",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Énigmes et intelligence",
+      "summary": "Une enfant découvre le nom secret d'un baobab en écoutant les souvenirs des anciens.",
+      "content": {
+        "introduction": "Au centre de la place se dressait un baobab centenaire dont tout le monde croyait connaître l'histoire.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Un voyageur arriva au village et prétendit connaître le véritable nom du vieux baobab. Il donna trois indices : ce nom n'était écrit sur aucune feuille, il grandissait dans la bouche de ceux qui se souviennent et il n'appartenait à personne. Les adultes proposèrent des noms savants, les enfants des surnoms amusants."
+          },
+          {
+            "title": "La leçon",
+            "text": "Awa, qui balayait souvent sous l'arbre avec sa grand-mère, interrogea les anciens. L'un se rappela que le baobab abritait les voyageurs ; une femme raconta qu'on y partageait les récoltes pendant les années difficiles. Awa retourna vers le voyageur : « Son nom est Mémoire partagée. » Il sourit : elle avait compris en écoutant plusieurs voix. Les habitants décidèrent de raconter chaque année leurs souvenirs sous l'arbre."
+          }
+        ],
+        "conclusion": "Chaque saison nouvelle, l'ombre du vieux baobab rassemble désormais les générations autour des récits du passé."
+      },
+      "moral": "Pour trouver certaines réponses, il faut moins parler et mieux écouter.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "énigmes et intelligence",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-005",
+      "title": "La fille et le flûtiau",
+      "slug": "la-fille-et-le-flutiau",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Musique et entraide",
+      "summary": "Une flûte rassemble un village, mais ses habitants doivent agir pour résoudre leurs problèmes.",
+      "content": {
+        "introduction": "Au bord du sentier qui menait au marigot, une découverte allait transformer la vie d'un village.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Fanta trouva un petit flûtiau de bois près d'un sentier. Lorsqu'elle souffla dedans, une mélodie claire attira les oiseaux et les enfants. Au village, la musique calma même une dispute entre deux voisins. Bientôt, chacun demanda à Fanta de jouer pour résoudre tous les problèmes."
+          },
+          {
+            "title": "La leçon",
+            "text": "Quand une pluie abîma le pont, les habitants se disputèrent sur la personne qui devait le réparer. Fanta joua, puis posa sa flûte. « La musique peut nous réunir, mais ce sont nos mains qui répareront le pont. » Les enfants ramassèrent les branches, les artisans apportèrent leurs outils et les adultes consolidèrent les planches. Fanta joua de nouveau lorsque le pont fut solide. Cette fois, chacun entendit dans la mélodie le souvenir du travail accompli ensemble."
+          }
+        ],
+        "conclusion": "Les habitants retinrent que si la musique ouvre les cœurs, ce sont les bras unis qui bâtissent l'avenir."
+      },
+      "moral": "L'art rassemble, mais la solidarité demande aussi des gestes concrets.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "musique et entraide",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-006",
+      "title": "Les deux boules de karité",
+      "slug": "les-deux-boules-de-karite",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Partage et générosité",
+      "summary": "Deux enfants découvrent que la valeur d'un cadeau grandit lorsqu'il est utilisé avec sagesse.",
+      "content": {
+        "introduction": "Après la récolte des noix de karité, une grand-mère voulut offrir à ses petits-enfants une leçon aussi précieuse que l'or.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Grand-mère Sira donna une boule de beurre de karité à chacun de ses petits-enfants, Moussa et Djeneba. Moussa enferma la sienne dans une boîte pour la garder. Djeneba en donna un peu à une voisine dont les mains étaient fendillées et en échangea une petite part contre du savon."
+          },
+          {
+            "title": "La leçon",
+            "text": "Quelques jours plus tard, la voisine apporta du pain en remerciement et l'artisane donna du savon supplémentaire. Moussa ouvrit sa boîte : sa boule était couverte de poussière. Il se plaignit. Sira lui expliqua qu'elle avait donné la même chose aux deux enfants, mais pas la même manière de l'utiliser. Moussa nettoya sa boule et en offrit une part à la voisine. Il comprit que le partage ne rend pas toujours plus riche en objets, mais qu'il nourrit la confiance."
+          }
+        ],
+        "conclusion": "Dans la cour familiale, les deux enfants apprirent qu'un bien enfermé s'éteint tandis qu'un bien offert grandit."
+      },
+      "moral": "Le partage réfléchi nourrit l'amitié et la confiance.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "partage et générosité",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-007",
+      "title": "La coépouse jalouse",
+      "slug": "la-coepouse-jalouse",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Famille et justice",
+      "summary": "Deux femmes apprennent à remplacer les soupçons par le dialogue et une répartition juste des tâches.",
+      "content": {
+        "introduction": "Au sein d'une grande concession familiale, un malentendu faillit briser la paix quotidienne.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Dans une concession, Nènè était appréciée pour son organisation. Fily, sa coépouse, avait beaucoup de talents, mais se croyait moins aimée. Quand le panier de céréales fut retrouvé presque vide, Fily accusa Nènè de l'avoir caché. Les paroles devinrent dures et les enfants cessèrent de jouer ensemble."
+          },
+          {
+            "title": "La leçon",
+            "text": "Un enfant remarqua des grains près du grenier. Un sac s'était déchiré et les poules avaient picoré les céréales. L'accusation était fausse. Une aînée réunit les femmes et leur demanda de parler de leurs sentiments. Fily avoua sa peur de ne pas compter ; Nènè reconnut qu'elle décidait parfois sans consulter l'autre. Elles réparèrent le sac et répartirent les tâches selon leurs compétences. Elles ne furent pas toujours d'accord, mais apprirent à se parler sans s'accuser."
+          }
+        ],
+        "conclusion": "La cour retrouva bientôt le rire des enfants et la sérénité d'une parole apaisée."
+      },
+      "moral": "La comparaison nourrit la jalousie ; le dialogue aide à vivre ensemble.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "famille et justice",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-008",
+      "title": "La méchante coépouse",
+      "slug": "la-mechante-coepouse",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Bonté et vérité",
+      "summary": "Des enfants observent les faits et permettent de révéler des accusations mensongères.",
+      "content": {
+        "introduction": "Lorsque la jalousie pousse à la ruse, le regard attentif des enfants sait parfois rétablir la justice.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Awa supportait mal que les enfants demandent conseil à Kadi, sa coépouse. Elle décida de la faire passer pour négligente. Elle déplaça le couvercle de la marmite, laissa les chèvres approcher de la réserve et accusa Kadi lorsque des grains furent renversés. Les enfants observèrent que les malheurs semblaient toujours être annoncés par Awa, qui ne cherchait jamais à les réparer."
+          },
+          {
+            "title": "La leçon",
+            "text": "Un jour, le petit Amadou vit Awa déplacer une jarre pour cacher un jeu de clés tombé derrière. Il raconta exactement ce qu'il avait vu, sans insulte. Les adultes vérifièrent et découvrirent aussi l'outil caché. Awa dut reconnaître ses actes, réparer les dommages et présenter ses excuses. Kadi accepta de tourner la page, mais demanda que les biens et les tâches soient désormais gérés ouvertement. La famille comprit que la paix ne consiste pas à cacher les injustices."
+          }
+        ],
+        "conclusion": "La clarté et la franchise ramenèrent durablement la confiance sous le toit familial."
+      },
+      "moral": "La vérité doit être dite avec calme ; la bonté n'oblige pas à accepter l'injustice.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "bonté et vérité",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-009",
+      "title": "La sorcière et sa belle-fille",
+      "slug": "la-sorciere-et-sa-belle-fille",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Mystère et prudence",
+      "summary": "Une jeune fille découvre qu'une voisine redoutée est surtout une femme savante victime de rumeurs.",
+      "content": {
+        "introduction": "Au bout du sentier vivait une femme solitaire dont tout le village parlait avec crainte sans jamais lui rendre visite.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Bintou entendait les voisins raconter que la vieille tante du bout du jardin était une sorcière. Au lieu de répéter leurs paroles, elle décida de lui parler. Un soir, elle vit une lumière sous la porte et sentit l'odeur de feuilles séchées. La vieille femme préparait des infusions et gardait des graines rares."
+          },
+          {
+            "title": "La leçon",
+            "text": "Bintou revint pour apprendre à reconnaître les plantes. La tante lui enseigna à ne jamais cueillir une plante inconnue ni préparer un remède sans conseil compétent. Ensemble, elles demandèrent l'avis d'un agriculteur pour protéger les jeunes pousses contre les chenilles. Quand les voisins apprirent la vérité, certains eurent honte de leurs rumeurs. La vieille femme demanda seulement qu'on la traite comme une personne. Bintou devint la gardienne du jardin de graines."
+          }
+        ],
+        "conclusion": "Grâce au courage de Bintou, les soupçons laissèrent place au respect du savoir des anciens."
+      },
+      "moral": "Ne juge pas sur les rumeurs : observe, vérifie et respecte les personnes.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "mystère et prudence",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-010",
+      "title": "La fille qui abandonna son frère",
+      "slug": "la-fille-qui-abandonna-son-frere",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Fraternité et responsabilité",
+      "summary": "Une grande sœur comprend l'importance de tenir sa promesse de veiller sur son petit frère.",
+      "content": {
+        "introduction": "Au milieu de la foule animée d'un jour de marché, une promesse confiée allait être mise à l'épreuve.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Mariam et son petit frère Issa traversaient le marché pour rejoindre leur tante. Leur mère avait confié à Mariam la responsabilité de rester près de lui. Mais Mariam aperçut ses amies et partit en disant : « Attends-moi ici. » La foule poussa Issa vers une autre allée. Quand Mariam revint, il avait disparu."
+          },
+          {
+            "title": "La leçon",
+            "text": "Mariam demanda de l'aide à une vendeuse et au responsable du marché. Elle décrivit les vêtements d'Issa et resta au point de rassemblement. Un marchand avait trouvé le garçon près des mangues et l'y conduisit. Mariam serra son frère et demanda pardon. Elle raconta tout à sa mère. Ensemble, ils décidèrent d'une règle : les enfants restent groupés et, si l'un se perd, il demande de l'aide à un adulte identifié et reste dans un lieu sûr."
+          }
+        ],
+        "conclusion": "Mariam ne lâcha plus jamais la main de son petit frère et devint le modèle des aînés du quartier."
+      },
+      "moral": "Une responsabilité confiée mérite attention ; reconnaître une erreur aide à la réparer.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "fraternité et responsabilité",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-011",
+      "title": "Les orphelins dans la brousse",
+      "slug": "les-orphelins-dans-la-brousse",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Solidarité et courage",
+      "summary": "Deux enfants perdus dans la brousse gardent leur calme et trouvent de l'aide auprès d'un berger connu.",
+      "content": {
+        "introduction": "Partis ramasser des fruits sauvages à la lisière du village, deux jeunes enfants se laissèrent surprendre par la tombée du jour.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Oumar et sa petite sœur Salima vivaient chez leur tante depuis la disparition de leurs parents. Un après-midi, en suivant un sentier bordé de karités, ils s'éloignèrent trop loin des champs. Lorsque le soleil descendit derrière les collines, les pistes se ressemblaient toutes et Salima commença à pleurer. Oumar prit sa main et lui dit : « Ne courons pas dans l'obscurité, restons près de ce grand baobab bien visible et écoutons les bruits du soir. »"
+          },
+          {
+            "title": "La leçon",
+            "text": "En tendant l'oreille dans le calme du crépuscule, ils entendirent la clochette d'un troupeau et le chant d'un vieux berger du village qui ramenait ses bêtes. Les deux enfants appelèrent d'une voix claire. Le berger les reconnut aussitôt, leur donna de l'eau de sa gourde et les raccompagna jusqu'aux premières cases éclairées. Leur tante les serra dans ses bras et félicita leur sang-froid."
+          }
+        ],
+        "conclusion": "Oumar et Salima retinrent que dans l'épreuve, l'union et le calme sont les meilleurs guides."
+      },
+      "moral": "Dans une difficulté, rester ensemble et demander l'aide d'une personne sûre est essentiel.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "solidarité et courage",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-012",
+      "title": "Les deux sœurs",
+      "slug": "les-deux-soeurs",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Famille et réconciliation",
+      "summary": "Deux sœurs aux caractères différents apprennent à unir leurs talents sur le chemin du marché.",
+      "content": {
+        "introduction": "Sous le même toit grandissaient deux sœurs que tout semblait opposer dans la vie de chaque jour.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Aminata aimait parler et inventer des chansons. Sa sœur Fily préférait observer avant d'agir. Un jour, leur grand-mère leur confia un panier de mangues à porter au marché. Aminata choisit un raccourci boueux ; Fily préférait le chemin plus long et sec. Elles se disputèrent et le panier glissa. Des mangues roulèrent sur le sol."
+          },
+          {
+            "title": "La leçon",
+            "text": "Aminata appela un voisin pour les aider à relever le panier. Fily observa la pente et plaça des feuilles propres pour empêcher les fruits de rouler plus loin. Elles arrivèrent au marché avec presque toutes les mangues intactes. Leur grand-mère leur fit remarquer que l'énergie d'Aminata avait appelé de l'aide et que l'attention de Fily avait évité d'autres pertes. Les sœurs comprirent que leurs différences pouvaient devenir une force."
+          }
+        ],
+        "conclusion": "Dès ce matin-là, les deux sœurs marchèrent côte à côte, fières de ce que chacune apportait à l'autre."
+      },
+      "moral": "Les différences deviennent une force lorsqu'on se respecte et qu'on coopère.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "famille et réconciliation",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-013",
+      "title": "La femme frivole",
+      "slug": "la-femme-frivole",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Sagesse et modération",
+      "summary": "Une commerçante apprend à ne pas sacrifier ses économies pour impressionner les autres.",
+      "content": {
+        "introduction": "Au marché du village, une jeune commerçante talentueuse se laissait souvent séduire par l'envie de briller.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Fanta aimait les beaux tissus et les fêtes. Elle dépensait presque tout ce qu'elle gagnait pour que les autres l'admirent. À l'approche d'une grande fête, elle acheta un tissu coûteux et organisa un repas somptueux. Une voisine lui conseilla de garder une réserve pour les imprévus. Fanta répondit qu'on ne voyait pas les économies."
+          },
+          {
+            "title": "La leçon",
+            "text": "Quelques semaines plus tard, une pluie violente endommagea sa maison. Fanta dut acheter des matériaux, mais ses coffres étaient vides. Une vieille commerçante lui montra trois pots : dépenses quotidiennes, imprévus et projets. Fanta reprit son commerce avec méthode. Elle continua d'aimer les beaux vêtements, mais nota ses dépenses et économisa régulièrement. Elle comprit qu'on peut apprécier les plaisirs sans sacrifier l'essentiel pour impressionner les autres."
+          }
+        ],
+        "conclusion": "Fanta découvrit ainsi que la véritable tranquillité d'esprit vaut tous les compliments d'un jour de fête."
+      },
+      "moral": "La modération protège l'avenir ; la vraie valeur ne se mesure pas aux apparences.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "sagesse et modération",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-014",
+      "title": "Les échanges successifs",
+      "slug": "les-echanges-successifs",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Échanges et honnêteté",
+      "summary": "Un panier passe de main en main et enseigne le consentement et l'équité dans les échanges.",
+      "content": {
+        "introduction": "Un matin de marché, un jeune artisan partit vendre le fruit de son travail patient.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Yacouba fabriquait de petits paniers avec sa grand-mère. Au marché, il échangea un panier contre des mangues, puis des mangues contre du miel, et une partie du miel contre un ruban. À chaque étape, il vérifiait que l'autre personne était d'accord. Un homme voulut prendre le ruban sans rien offrir. Yacouba refusa poliment : « Un échange doit convenir aux deux personnes. »"
+          },
+          {
+            "title": "La leçon",
+            "text": "Yacouba finit par échanger le ruban contre un cahier pour sa petite sœur. Il rentra heureux, même s'il n'avait plus le panier. Sa grand-mère lui demanda ce qu'il avait appris. Il répondit que les objets changent de mains, mais que chacun doit être respecté. Le lendemain, il fabriqua deux paniers : l'un pour vendre, l'autre pour offrir à une voisine qui l'avait aidé."
+          }
+        ],
+        "conclusion": "Dans tout le village, la parole de Yacouba devint synonyme d'équité et de respect mutuel."
+      },
+      "moral": "Un échange juste repose sur le consentement, la clarté et le respect.",
+      "readingTime": 6,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "échanges et honnêteté",
+        "conte",
+        "jeunesse"
+      ]
+    },
+    {
+      "id": "conte-015",
+      "title": "Le bol de dèguè partagé",
+      "slug": "le-bol-de-degue-partage",
+      "origin": {
+        "country": null,
+        "culture": null,
+        "status": "creation_originale_inspiree",
+        "source": null,
+        "note": "Création contemporaine inspirée de thèmes et motifs narratifs ouest-africains. Ce récit n'est pas une transcription ni une adaptation fidèle d'un conte traditionnel recueilli et n'est pas attribué à une communauté précise."
+      },
+      "type": "creation_inspiree",
+      "ageRange": "6-12 ans",
+      "category": "Partage et humilité",
+      "summary": "Un chasseur qui voulait garder tout son repas pour lui seul reçoit une leçon malicieuse d'un petit lièvre.",
+      "content": {
+        "introduction": "Au retour d'une longue marche dans la brousse, un jeune homme pensait ne devoir son repas à personne.",
+        "chapters": [
+          {
+            "title": "Le récit",
+            "text": "Après une journée de chasse sans prise, Boubacar rentra au village. Sa sœur lui avait préparé une boule de dèguè. Il s'assit sous un arbre et décida de tout manger seul. Un petit lièvre sortit des herbes et lui demanda une bouchée. Boubacar refusa. Il posa son bol sur une pierre pour aller chercher de l'eau."
+          },
+          {
+            "title": "La leçon",
+            "text": "Le lièvre fit rouler une graine près du bol. Boubacar se retourna brusquement, trébucha et renversa presque son repas. Il rattrapa le bol, mais une partie du dèguè tomba dans le sable. « Tu voulais tout garder si fort que tu as failli tout perdre », dit le lièvre avant de disparaître. Boubacar jeta la portion souillée et retourna demander une nouvelle part à sa sœur. Cette fois, il partagea son repas avec elle et les enfants qui l'avaient aidé."
+          }
+        ],
+        "conclusion": "Boubacar comprit ce jour-là qu'un repas partagé nourrit bien plus que l'estomac."
+      },
+      "moral": "L'égoïsme fait souvent perdre ce que l'on croit protéger ; le partage multiplie la joie.",
+      "readingTime": 7,
+      "language": "fr",
+      "audioUrl": null,
+      "coverImage": null,
+      "tags": [
+        "partage et humilité",
+        "conte",
+        "jeunesse"
+      ]
+    }
+  ]
+}
