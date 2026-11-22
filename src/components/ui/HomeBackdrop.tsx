@@ -1,8 +1,8 @@
 /**
  * Illustrative hero backdrop inspired by West African storytelling evenings
- * (warm Sahel horizon, baobab silhouette, discreet bogolan-inspired geometry).
- * Decorative only (aria-hidden), with a subtle ivory scrim on the left to
- * preserve text contrast across all viewport sizes.
+ * (warm Sahel horizon, baobab & acacia silhouettes, griot storytelling scene).
+ * Decorative only (aria-hidden), positioned so the griot sits cleanly between
+ * the hero CTA buttons and the bottom navigation dock without any blurry veil.
  */
 export function HomeBackdrop() {
   return (
@@ -11,19 +11,19 @@ export function HomeBackdrop() {
       className="pointer-events-none absolute inset-0 overflow-hidden select-none"
     >
       <img
-        src="/images/hero-bg.jpg"
+        src="/images/hero-bg-circle.jpg"
         alt=""
         decoding="async"
         fetchPriority="high"
-        className="h-full w-full object-cover object-right-bottom"
+        className="h-full w-full object-cover object-center"
       />
 
-      {/* Soft centered ivory readability veil */}
+      {/* Ultra-light central glow so both the griot behind the text and the typography stay crisp */}
       <div
         className="absolute "
         style={{
           background:
-            'radial-gradient(ellipse 75% 65% at 50% 48%, rgba(255, 249, 240, 0.78) 0%, rgba(255, 249, 240, 0.42) 60%, rgba(255, 249, 240, 0.12) 100%)',
+            'radial-gradient(ellipse 46% 36% at 50% 46%, rgba(255, 249, 240, 0.28) 0%, rgba(255, 249, 240, 0) 100%)',
         }}
       />
     </div>
