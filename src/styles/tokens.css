@@ -11,9 +11,25 @@
   --color-zirin-brown-deep: #5e2d13;
   --color-zirin-sand: #f6e8d2;
   --color-zirin-sand-strong: #ead4b3;
+  --color-zirin-sand-warm: #fcf8f2;
   --color-zirin-ivory: #fff9f0;
   --color-zirin-ink: #33251d;
   --color-zirin-ink-muted: #665144;
+
+  /* Authentic African Art Direction Palette */
+  --color-zirin-terracotta: #d35400;
+  --color-zirin-terracotta-warm: #e06d28;
+  --color-zirin-terracotta-deep: #b3471a;
+  --color-zirin-gold: #d4af37;
+  --color-zirin-gold-warm: #e5a93c;
+  --color-zirin-gold-light: #f7d488;
+  --color-zirin-forest: #1e5128;
+  --color-zirin-forest-light: #2c6e38;
+  --color-zirin-red-trad: #962d2d;
+  --color-zirin-red-deep: #741b1b;
+  --color-zirin-earth: #4a2e1b;
+  --color-zirin-earth-deep: #2e1c10;
+  --color-zirin-ebony: #1a1412;
 
   /* Typography */
   --font-display: 'Fraunces', Georgia, Cambria, 'Times New Roman', serif;

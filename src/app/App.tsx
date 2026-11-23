@@ -5,6 +5,7 @@ import { ComingSoonPage } from '../pages/ComingSoonPage';
 import { HomePage } from '../pages/HomePage';
 import { TaleDetailPage } from '../pages/TaleDetailPage';
 import { TalesPage } from '../pages/TalesPage';
+import { RiddlesPage } from '../pages/RiddlesPage';
 
 export function App() {
   return (
@@ -13,15 +14,7 @@ export function App() {
         <AppLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route
-              path="/devinettes"
-              element={
-                <ComingSoonPage
-                  title="Devinettes"
-                  description="L'espace de devinettes interactives (niveaux, quatre propositions et explications) sera développé dans la prochaine étape."
-                />
-              }
-            />
+            <Route path="/devinettes" element={<RiddlesPage />} />
             <Route path="/contes" element={<TalesPage />} />
             <Route path="/contes/:slug" element={<TaleDetailPage />} />
             <Route

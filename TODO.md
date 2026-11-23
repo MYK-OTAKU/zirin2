@@ -18,12 +18,12 @@ Convention : [ ] à faire ; [x] terminé. Chaque tâche est validée par un rés
 
 ## Développement
 - [x] Initialiser projet SPA + Tailwind (critère : build et lint OK).
-- [x] Définir types et schémas JSON pour le corpus des contes (critère : contenus invalides détectés au chargement).
+- [x] Définir types et schémas JSON pour les corpus des contes et des devinettes (critère : contenus chargés et validés).
 - [x] Construire layout, routes et navigation (critère : accès direct aux routes).
 - [x] Implémenter accueil (critère : CTA et navigation opérationnels).
 - [x] Implémenter catalogue de contes (critère : recherche, filtres, états vides).
 - [x] Implémenter détail du conte (critère : lecture longue, illustrations disponibles, audio facultatif).
-- [ ] Implémenter devinettes (critère : niveaux, 4 choix, feedback, suite).
+- [x] Implémenter devinettes (critère : niveaux, 4 choix, feedback, suite).
 - [ ] Décider canal Contact/Suggestions (critère : pas de fausse confirmation d'envoi).
 - [ ] Ajouter tests de parcours, accessibilité et responsive (critère : cas nominaux/limites couverts).
 - [ ] Préparer déploiement (critère : URL de prévisualisation testée).

@@ -15,6 +15,39 @@ Toutes les évolutions effectives du produit sont consignées ici ; ne pas confo
 - Aucune fonctionnalité de l'application n'est déclarée implémentée à ce stade.
 
 
+## [0.4.0 — Collection d'illustrations, Boutons & Ambiance sonore africaine] — 2026-11-22
+### Ajouté
+- Collection d'illustrations originales dans `src/assets/images/devinettes/` : Bannière village malien et cases en terre (`banniere.jpg`), Enfants sous l'arbre pour le niveau Facile (`facile.jpg`), Scène de réflexion pour le niveau Moyen (`moyen.jpg`), Ancien sage pour le niveau Difficile (`difficile.jpg`), Célébration festive (`reussite.jpg`), avec fallback vectoriel animé (`FeedbackAfricanIllustrations.tsx`).
+- Refonte complète des boutons avec identité africaine :
+  - Bouton « Commencer » : Fond terre cuite, texte blanc, motif africain discret, animation et élévation au clic.
+  - Bouton « Vérifier ma réponse » : Fond vert profond, icône de validation, animation de pression au clic.
+  - Bouton « Voir la réponse » : Jaune or, icône œil, apparition progressive de la solution.
+  - Bouton « Devinette suivante » : Fond orange, icône flèche, transition latérale.
+  - Bouton « Rejouer » : Vert profond, icône renouvellement et animation de rotation.
+- Refonte des cartes de niveaux selon le cahier des charges :
+  - Facile : Vert naturel, enfants africains, icône Sourire (`Smile`), texte « Pour commencer en douceur ».
+  - Moyen : Orange et jaune, personnage pensif, icône Cerveau (`Brain`), texte « Mets ton intelligence à l'épreuve ».
+  - Difficile : Rouge profond et noir, sage africain, icône Ampoule (`Lightbulb`), texte « Réservé aux grands esprits ».
+- Moteur d'ambiance sonore Web Audio API (`africanAudio.ts`) avec synthèse balafon, djembé et kora (son de démarrage, validation bonne réponse, feedback mauvaise réponse, triomphe de fin de niveau) et bouton d'activation/désactivation du son.
+
+## [0.3.0 — Refonte Direction Artistique Ouest-Africaine & Malienne] — 2026-11-22
+### Ajouté
+- Refonte visuelle complète de la rubrique Devinettes inspirée du patrimoine culturel du Mali et d'Afrique de l'Ouest.
+- Palette de couleurs authentiques : Orange terre cuite, Jaune or africain, Vert profond, Rouge traditionnel, Brun terre, Beige sable, Noir ébène.
+- Composants de motifs décoratifs vectoriels : motifs textiles Bogolan (`BogolanBackground`), frises géométriques bambara (`MalianFrieze`), contreforts de Djenné (`MalianToronAccent`), symbole Adinkra Nyansapo de la sagesse (`AdinkraNyansapo`).
+- 4 illustrations originales haute définition générées sur-mesure (Héros veillée sous baobab, Gazelle bondissante pour le niveau Facile, Calebasse d'or gravée pour le niveau Moyen, Masque cérémoniel Dogon Kanaga pour le niveau Difficile).
+- Design immersif de la carte de devinette centrale et de l'écran de résultats inspiré des veillées traditionnelles et cours royales du Mandé.
+
+## [0.2.0 — Module Devinettes : Interface, jeu interactif & persistance] — 2026-11-22
+### Ajouté
+- Hub moderne pour les Devinettes africaines (`RiddleHubView`) avec en-tête (« Devinettes africaines », sous-titre, badge 45 devinettes), 3 cartes de catégories (Facile: 1 pt, Moyen: 2 pts, Difficile: 3 pts) et section de progression globale (réussies, restantes, score, complétion).
+- Jeu interactif par champ de saisie (`RiddlePlayCard`) avec boutons « Vérifier ma réponse », « Voir la réponse », navigation « Devinette précédente » et « Devinette suivante ».
+- Moteur de comparaison sémantique et tolérante (`answerMatcher.ts`) gérant casse, accents, ponctuation, articles définis/indéfinis, alias culturels et distance d'édition.
+- Système de score strict sans doublons par question et respect des points par niveau (1, 2, 3 pts).
+- Écran de résultats complet (`RiddleResultsView`) avec 4 statistiques clés, message adapté au taux de réussite, accordéon des réponses et les trois boutons obligatoires (« Rejouer », « Choisir un autre niveau », « Retour aux devinettes »).
+- Système de sauvegarde locale (`riddleStorage.ts`) dans `localStorage` conservant le meilleur score, les parties jouées, les devinettes résolues, la reprise de session en cours et bouton de réinitialisation avec confirmation.
+- Suite de tests de validation (`src/tests/verifyRiddlesModule.cjs`).
+
 ## [0.1.0 — Phase 1 : Socle et Accueil] — 2026-11-21
 ### Ajouté
 - Initialisation du socle React 19 + Vite 6 + TypeScript strict + Tailwind CSS v4 + Lucide React + React Router.

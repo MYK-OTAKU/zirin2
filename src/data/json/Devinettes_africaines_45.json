@@ -1,0 +1,246 @@
+{
+  "titre": "45 Devinettes africaines",
+  "description": "Recueil de devinettes inspirées de la vie quotidienne, de la nature, des animaux et des traditions africaines.",
+  "categories": [
+    {
+      "niveau": "facile",
+      "devinettes": [
+        {
+          "id": 1,
+          "question": "Je brille dans le ciel pendant la journée et je donne de la chaleur. Qui suis-je ?",
+          "reponse": "Le soleil."
+        },
+        {
+          "id": 2,
+          "question": "J'ai quatre pattes, je garde la maison et j'aboie. Qui suis-je ?",
+          "reponse": "Le chien."
+        },
+        {
+          "id": 3,
+          "question": "Je suis jaune, je pousse sur un régime et les singes m'aiment beaucoup. Qui suis-je ?",
+          "reponse": "La banane."
+        },
+        {
+          "id": 4,
+          "question": "Je tombe du ciel et je mouille la terre. Qui suis-je ?",
+          "reponse": "La pluie."
+        },
+        {
+          "id": 5,
+          "question": "J'ai des dents, mais je ne mange jamais. Qui suis-je ?",
+          "reponse": "Le peigne."
+        },
+        {
+          "id": 6,
+          "question": "Je suis le roi de la savane et je rugis. Qui suis-je ?",
+          "reponse": "Le lion."
+        },
+        {
+          "id": 7,
+          "question": "Je suis grand, j'ai un long cou et je mange les feuilles des arbres. Qui suis-je ?",
+          "reponse": "La girafe."
+        },
+        {
+          "id": 8,
+          "question": "Je suis noir et blanc, je vis dans les maisons et je chasse les souris. Qui suis-je ?",
+          "reponse": "Le chat."
+        },
+        {
+          "id": 9,
+          "question": "Plus on me lave, plus je deviens sale. Qui suis-je ?",
+          "reponse": "L'eau de lavage devient sale."
+        },
+        {
+          "id": 10,
+          "question": "Je donne du lait et je fais « meuh ». Qui suis-je ?",
+          "reponse": "La vache."
+        },
+        {
+          "id": 11,
+          "question": "Je pousse dans la terre et les enfants aiment me manger grillé. Qui suis-je ?",
+          "reponse": "Le maïs."
+        },
+        {
+          "id": 12,
+          "question": "Je suis dans ta bouche et je t'aide à parler et à goûter. Qui suis-je ?",
+          "reponse": "La langue."
+        },
+        {
+          "id": 13,
+          "question": "Je marche sans jambes et je fais tic-tac. Qui suis-je ?",
+          "reponse": "L'horloge."
+        },
+        {
+          "id": 14,
+          "question": "Je suis une grande étendue d'eau salée. Qui suis-je ?",
+          "reponse": "La mer."
+        },
+        {
+          "id": 15,
+          "question": "Je suis le fils de ton père, mais je ne suis pas ton frère. Qui suis-je ?",
+          "reponse": "Toi-même (si tu es un garçon)."
+        }
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "devinettes": [
+        {
+          "id": 1,
+          "question": "Je n'ai pas de bouche, mais je peux raconter des histoires. Qui suis-je ?",
+          "reponse": "Un livre."
+        },
+        {
+          "id": 2,
+          "question": "Plus je sèche, plus je deviens mouillée. Qui suis-je ?",
+          "reponse": "Une serviette."
+        },
+        {
+          "id": 3,
+          "question": "Je suis né dans l'eau, mais si je retourne dans l'eau, je disparais. Qui suis-je ?",
+          "reponse": "Le sel."
+        },
+        {
+          "id": 4,
+          "question": "Je peux remplir une maison sans prendre de place. Qui suis-je ?",
+          "reponse": "La lumière."
+        },
+        {
+          "id": 5,
+          "question": "Je suis toujours devant toi, mais tu ne peux jamais me rattraper. Qui suis-je ?",
+          "reponse": "L'avenir."
+        },
+        {
+          "id": 6,
+          "question": "Je n'ai pas de jambes, mais je cours jour et nuit. Qui suis-je ?",
+          "reponse": "Une rivière."
+        },
+        {
+          "id": 7,
+          "question": "Je suis un arbre connu en Afrique, parfois appelé arbre de vie. Qui suis-je ?",
+          "reponse": "Le baobab."
+        },
+        {
+          "id": 8,
+          "question": "Je peux être cassé sans être touché. Qui suis-je ?",
+          "reponse": "Une promesse."
+        },
+        {
+          "id": 9,
+          "question": "Quand je suis jeune, je suis grand ; quand je suis vieux, je deviens petit. Qui suis-je ?",
+          "reponse": "Une bougie."
+        },
+        {
+          "id": 10,
+          "question": "J'ai des villes, des routes et des fleuves, mais personne n'y habite. Qui suis-je ?",
+          "reponse": "Une carte géographique."
+        },
+        {
+          "id": 11,
+          "question": "Je peux voyager partout dans le monde tout en restant dans un coin. Qui suis-je ?",
+          "reponse": "Un timbre."
+        },
+        {
+          "id": 12,
+          "question": "Je parle toutes les langues, mais je n'ai jamais appris à parler. Qui suis-je ?",
+          "reponse": "L'écho."
+        },
+        {
+          "id": 13,
+          "question": "Je suis invisible, mais tu ne peux pas vivre sans moi. Qui suis-je ?",
+          "reponse": "L'air."
+        },
+        {
+          "id": 14,
+          "question": "Je grandis quand on me nourrit et je meurs quand on me donne à boire. Qui suis-je ?",
+          "reponse": "Le feu."
+        },
+        {
+          "id": 15,
+          "question": "Deux pères et deux fils vont au marché. Ils achètent trois mangues et chacun reçoit une mangue. Comment est-ce possible ?",
+          "reponse": "Ils sont trois : le grand-père, le père et le fils."
+        }
+      ]
+    },
+    {
+      "niveau": "difficile",
+      "devinettes": [
+        {
+          "id": 1,
+          "question": "Un homme regarde une photo et dit : « Je n'ai ni frère ni sœur, mais le père de cet homme est le fils de mon père. » Qui est sur la photo ?",
+          "reponse": "Son fils."
+        },
+        {
+          "id": 2,
+          "question": "Une mère a quatre filles. Chaque fille a un frère. Combien d'enfants la mère a-t-elle ?",
+          "reponse": "Cinq enfants : quatre filles et un frère commun."
+        },
+        {
+          "id": 3,
+          "question": "Je suis toujours devant toi, mais personne ne m'a jamais vu. Même le plus riche ne peut pas m'acheter. Qui suis-je ?",
+          "reponse": "L'avenir."
+        },
+        {
+          "id": 4,
+          "question": "Un homme est sorti sous une forte pluie sans parapluie ni chapeau. Pourtant, aucun de ses cheveux n'est mouillé. Pourquoi ?",
+          "reponse": "Parce qu'il est chauve."
+        },
+        {
+          "id": 5,
+          "question": "Plus tu m'enlèves, plus je deviens grand. Qui suis-je ?",
+          "reponse": "Un trou."
+        },
+        {
+          "id": 6,
+          "question": "Un coq pond un œuf sur le toit d'une maison. De quel côté l'œuf va-t-il tomber ?",
+          "reponse": "Nulle part : un coq ne pond pas d'œufs."
+        },
+        {
+          "id": 7,
+          "question": "Tu as cinq bougies allumées. Tu en éteins deux. Combien de bougies te reste-t-il à la fin ?",
+          "reponse": "Cinq bougies : les deux éteintes restent, tandis que les autres se consument."
+        },
+        {
+          "id": 8,
+          "question": "Un berger possède 17 moutons. Tous meurent sauf 9. Combien lui en reste-t-il ?",
+          "reponse": "Neuf moutons."
+        },
+        {
+          "id": 9,
+          "question": "Je peux être donné, mais aussi repris. Je peux être précieux sans coûter un franc. Qui suis-je ?",
+          "reponse": "Une promesse."
+        },
+        {
+          "id": 10,
+          "question": "Trois personnes traversent une rivière. Deux pères et deux fils sont présents, mais ils ne sont que trois. Comment est-ce possible ?",
+          "reponse": "Ce sont le grand-père, le père et le fils."
+        },
+        {
+          "id": 11,
+          "question": "Je n'ai ni vie ni âme, mais je peux grandir. Je n'ai pas de poumons, mais j'ai besoin d'air. L'eau me tue. Qui suis-je ?",
+          "reponse": "Le feu."
+        },
+        {
+          "id": 12,
+          "question": "Un homme habite au 10e étage. Chaque matin, il descend en ascenseur. Le soir, il remonte jusqu'au 7e étage et monte les trois derniers étages à pied. Pourquoi ?",
+          "reponse": "Il est trop petit pour atteindre le bouton du 10e étage et ne peut atteindre que celui du 7e."
+        },
+        {
+          "id": 13,
+          "question": "Je suis plus léger qu'une plume, mais personne ne peut me retenir longtemps. Qui suis-je ?",
+          "reponse": "Le souffle."
+        },
+        {
+          "id": 14,
+          "question": "Un homme a 10 poissons dans un bassin. Deux se noient, trois s'enfuient et cinq meurent. Combien de poissons reste-t-il dans le bassin ?",
+          "reponse": "Dix poissons : ceux qui meurent ou sont dits s'enfuir restent dans le bassin dans le piège de cette devinette."
+        },
+        {
+          "id": 15,
+          "question": "Je peux être au début de la nuit et à la fin du matin, mais jamais au milieu du jour. Qui suis-je ?",
+          "reponse": "La lettre « N »."
+        }
+      ]
+    }
+  ]
+}

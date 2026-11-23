@@ -13,7 +13,7 @@ export function PageTransition({ children }: PageTransitionProps) {
   const { pathname } = useLocation();
 
   return (
-    <div key={pathname} className="zirin-page-enter h-full w-full">
+    <div key={pathname} className="zirin-page-enter min-h-full w-full">
       {children}
     </div>
   );
