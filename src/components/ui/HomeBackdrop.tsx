@@ -11,7 +11,7 @@ export function HomeBackdrop() {
       className="pointer-events-none absolute inset-0 overflow-hidden select-none"
     >
       <img
-        src="/images/hero-bg-circle.jpg"
+        src={`${import.meta.env.BASE_URL}images/hero-bg-circle.jpg`}
         alt=""
         decoding="async"
         fetchPriority="high"

@@ -20,7 +20,7 @@ export function ZirinBrand({ className = '' }: ZirinBrandProps) {
         className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-zirin-brown/15 bg-zirin-ivory shadow-sm transition-transform duration-200 group-hover:scale-105"
       >
         <img
-          src="/images/zirin-logo.jpg"
+          src={`${import.meta.env.BASE_URL}images/zirin-logo.jpg`}
           alt=""
           className="h-full w-full object-cover"
         />

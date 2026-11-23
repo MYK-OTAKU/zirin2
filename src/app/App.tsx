@@ -10,7 +10,7 @@ import { RiddlesPage } from '../pages/RiddlesPage';
 export function App() {
   return (
     <ErrorBoundary>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <AppLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
