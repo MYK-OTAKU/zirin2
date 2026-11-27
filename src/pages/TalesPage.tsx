@@ -1,8 +1,14 @@
-import { BookOpen, Clock3, Search, Sparkles } from 'lucide-react';
+import { ArrowRight, BookOpen, Clock3, Search, Sparkles } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getTaleAgeRanges, getTaleCategories, getTales } from '../data/tales';
 import { ZirinBrand } from '../components/ui/ZirinBrand';
+import {
+  BogolanBackground,
+  MalianFrieze,
+  MalianToronAccent,
+} from '../components/ui/AfricanDecorations';
+import storyImage from '../assets/illustrations/hero.jpg';
+import { getTaleAgeRanges, getTaleCategories, getTales } from '../data/tales';
 
 export function TalesPage() {
   const tales = getTales();
@@ -31,145 +37,254 @@ export function TalesPage() {
     });
   }, [ageRange, category, query, tales]);
 
+  const hasActiveFilters = Boolean(query || category || ageRange);
+
+  function clearFilters() {
+    setQuery('');
+    setCategory('');
+    setAgeRange('');
+  }
+
   return (
-    <section className="mx-auto flex min-h-[calc(100dvh-6rem)] w-full max-w-6xl flex-col px-6 pt-6 pb-28 sm:px-10 sm:pt-8 lg:h-full lg:min-h-0 lg:pb-6">
-      <header className="flex items-center justify-between">
+    <section className="mx-auto flex min-h-full w-full max-w-6xl flex-col px-4 pt-4 pb-28 sm:px-8 sm:pt-6">
+      <header className="flex w-full min-w-0 flex-col items-start gap-3 border-b border-zirin-brown/10 pb-4">
         <ZirinBrand />
-        <span className="rounded-full border border-zirin-brown/15 bg-white/70 px-3.5 py-1 text-xs font-medium text-zirin-brown">
-          {tales.length} histoires à découvrir
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-zirin-brown/15 bg-zirin-sand/60 px-3.5 py-1 text-xs font-semibold text-zirin-brown">
+          <BookOpen className="h-3.5 w-3.5 text-zirin-primary" aria-hidden="true" />
+          Espace des contes
         </span>
       </header>
 
-      <div className="mt-7 flex min-h-0 flex-1 flex-col">
-        <div className="mb-5">
-          <p className="flex items-center gap-2 text-sm font-semibold text-zirin-primary-text">
-            <Sparkles className="h-4 w-4" aria-hidden="true" />
-            Un moment de lecture à partager
-          </p>
-          <h1 className="mt-2 text-3xl font-bold sm:text-4xl">Le catalogue des contes</h1>
-          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zirin-ink-muted sm:text-base">
-            Des histoires originales à lire en famille, avec une morale et une
-            durée de lecture pour chacune.
-          </p>
-        </div>
+      <div className="mt-6 flex w-full min-w-0 flex-1 flex-col gap-7">
+        <section className="relative w-full min-w-0 overflow-hidden rounded-3xl border-2 border-zirin-gold-warm/40 bg-gradient-to-br from-[#2D1B10] via-[#4A2E1B] to-[#1A1412] p-6 text-white shadow-xl sm:p-10">
+          <BogolanBackground className="text-zirin-gold-warm/10" />
 
-        <div className="grid gap-3 rounded-2xl border border-zirin-brown/10 bg-white/75 p-3 shadow-sm sm:grid-cols-[minmax(0,1fr)_minmax(11rem,0.7fr)_minmax(10rem,0.55fr)] sm:p-4">
-          <label className="relative block">
-            <span className="sr-only">Rechercher un conte</span>
-            <Search
-              className="pointer-events-none absolute top-1/2 left-3.5 h-4 w-4 -translate-y-1/2 text-zirin-ink-muted"
-              aria-hidden="true"
-            />
-            <input
-              type="search"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Rechercher un conte…"
-              className="min-h-11 w-full rounded-xl border border-zirin-brown/15 bg-zirin-ivory py-2 pr-3 pl-10 text-sm text-zirin-ink placeholder:text-zirin-ink-muted/75"
-            />
-          </label>
+          <div className="relative z-10 flex min-w-0 flex-col gap-8 lg:flex-row lg:items-center">
+            <div className="flex min-w-0 flex-1 flex-col items-start gap-4">
+              <span className="inline-flex max-w-full items-center gap-2 rounded-full border border-zirin-gold-warm/50 bg-[#1A1412]/80 px-4 py-1.5 text-xs font-bold tracking-wider text-zirin-gold-light uppercase backdrop-blur-md">
+                <Sparkles className="h-4 w-4 text-zirin-gold-warm" aria-hidden="true" />
+                Sagesse du Mandé et veillées d’Afrique
+              </span>
 
-          <label className="block">
-            <span className="sr-only">Filtrer par catégorie</span>
-            <select
-              value={category}
-              onChange={(event) => setCategory(event.target.value)}
-              className="min-h-11 w-full rounded-xl border border-zirin-brown/15 bg-zirin-ivory px-3 text-sm text-zirin-ink"
-            >
-              <option value="">Toutes les catégories</option>
-              {categories.map((item) => (
-                <option key={item} value={item}>
-                  {item}
-                </option>
-              ))}
-            </select>
-          </label>
+              <h1 className="w-full max-w-full break-words text-3xl leading-tight font-black text-[#FFF8ED] sm:text-4xl lg:text-5xl">
+                Les contes du Mali
+              </h1>
+              <p className="w-full max-w-3xl text-base leading-relaxed font-medium text-[#EAD4B3] sm:text-lg">
+                Retrouve les récits de sagesse, de courage et de transmission, et fais vivre la
+                parole des conteurs.
+              </p>
+              <MalianToronAccent className="text-zirin-gold-warm/60" />
 
-          <label className="block">
-            <span className="sr-only">Filtrer par âge</span>
-            <select
-              value={ageRange}
-              onChange={(event) => setAgeRange(event.target.value)}
-              className="min-h-11 w-full rounded-xl border border-zirin-brown/15 bg-zirin-ivory px-3 text-sm text-zirin-ink"
-            >
-              <option value="">Tous les âges</option>
-              {ageRanges.map((item) => (
-                <option key={item} value={item}>
-                  {item}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
+              <div className="mt-1 flex w-full flex-wrap gap-3 text-xs font-semibold text-[#F6E8D2]">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-zirin-terracotta/60 bg-zirin-terracotta/40 px-3.5 py-1.5">
+                  <BookOpen className="h-3.5 w-3.5 text-zirin-gold-warm" aria-hidden="true" />
+                  {tales.length} récits à découvrir
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5">
+                  <Sparkles className="h-3.5 w-3.5 text-zirin-gold-light" aria-hidden="true" />
+                  20 nouveaux récits
+                </span>
+              </div>
+            </div>
 
-        <div className="mt-4 flex items-center justify-between text-sm text-zirin-ink-muted">
-          <p aria-live="polite">
-            {filteredTales.length} {filteredTales.length > 1 ? 'contes trouvés' : 'conte trouvé'}
-          </p>
-          {(query || category || ageRange) && (
-            <button
-              type="button"
-              onClick={() => {
-                setQuery('');
-                setCategory('');
-                setAgeRange('');
-              }}
-              className="min-h-10 rounded-full px-3 font-semibold text-zirin-brown underline-offset-4 hover:underline"
-            >
-              Effacer les filtres
-            </button>
-          )}
-        </div>
+            <div className="relative w-full min-w-0 lg:w-[42%]">
+              <div className="relative aspect-video w-full overflow-hidden rounded-2xl border-2 border-zirin-gold-warm/50 bg-zirin-brown-deep shadow-2xl">
+                <img
+                  src={storyImage}
+                  alt="Un conteur partage une histoire autour du feu sous un baobab"
+                  className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#1A1412]/80 via-transparent to-transparent" />
+                <p className="absolute right-4 bottom-3 left-4 text-sm font-bold tracking-wide text-zirin-gold-light">
+                  « La parole est le fil qui relie les générations. »
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div className="mt-3 min-h-0 flex-1 overflow-y-auto pb-2">
-          {filteredTales.length > 0 ? (
-            <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3" role="list">
-              {filteredTales.map((tale) => (
-                <li key={tale.id}>
-                  <Link
-                    to={`/contes/${tale.slug}`}
-                    className="group flex h-full min-h-52 flex-col rounded-2xl border border-zirin-brown/12 bg-white/80 p-5 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-zirin-primary/45 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zirin-primary"
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-zirin-sand text-zirin-brown">
-                        <BookOpen className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                      <span className="rounded-full bg-zirin-sand/75 px-3 py-1 text-xs font-medium text-zirin-brown">
+        <MalianFrieze className="text-zirin-terracotta/60" />
+
+        <section
+          aria-label="Rechercher et filtrer les contes"
+          className="relative w-full min-w-0 overflow-hidden rounded-3xl border-2 border-zirin-brown/20 bg-gradient-to-b from-[#FFFDF9] to-[#FBF6EE] p-5 shadow-md sm:p-8"
+        >
+          <BogolanBackground className="text-zirin-brown/5" />
+
+          <div className="relative z-10 flex min-w-0 flex-col gap-5">
+            <div className="flex min-w-0 items-start gap-3 border-b border-zirin-brown/15 pb-4">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-zirin-gold-warm/20 text-zirin-brown shadow-inner">
+                <BookOpen className="h-5 w-5 text-zirin-terracotta" aria-hidden="true" />
+              </span>
+              <div className="min-w-0">
+                <h2 className="break-words text-lg font-bold text-zirin-brown sm:text-xl">
+                  Le grand recueil des contes
+                </h2>
+                <p className="mt-1 text-xs text-zirin-ink-muted">
+                  Recherche une histoire ou choisis un thème et un âge.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid gap-3 sm:grid-cols-[minmax(0,1.3fr)_minmax(10rem,0.8fr)_minmax(9rem,0.65fr)]">
+              <label className="block min-w-0">
+                <span className="mb-1.5 block pl-1 text-xs font-bold tracking-wider text-zirin-ink-muted uppercase">
+                  Rechercher
+                </span>
+                <span className="relative block">
+                  <Search
+                    className="pointer-events-none absolute top-1/2 left-3.5 h-4 w-4 -translate-y-1/2 text-zirin-ink-muted"
+                    aria-hidden="true"
+                  />
+                  <input
+                    type="search"
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                    placeholder="Titre, lieu ou personnage…"
+                    className="min-h-12 w-full min-w-0 rounded-2xl border-2 border-zirin-brown/20 bg-white py-3 pr-4 pl-11 text-sm font-semibold text-zirin-brown-deep placeholder:text-zirin-ink-muted/60 focus:border-zirin-terracotta focus:outline-none focus:ring-2 focus:ring-zirin-gold-warm/30"
+                  />
+                </span>
+              </label>
+
+              <label className="block min-w-0">
+                <span className="mb-1.5 block pl-1 text-xs font-bold tracking-wider text-zirin-ink-muted uppercase">
+                  Thème
+                </span>
+                <select
+                  value={category}
+                  onChange={(event) => setCategory(event.target.value)}
+                  className="min-h-12 w-full min-w-0 rounded-2xl border-2 border-zirin-brown/20 bg-white px-3 text-sm font-semibold text-zirin-brown-deep focus:border-zirin-terracotta focus:outline-none focus:ring-2 focus:ring-zirin-gold-warm/30"
+                >
+                  <option value="">Tous les thèmes</option>
+                  {categories.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="block min-w-0">
+                <span className="mb-1.5 block pl-1 text-xs font-bold tracking-wider text-zirin-ink-muted uppercase">
+                  Âge
+                </span>
+                <select
+                  value={ageRange}
+                  onChange={(event) => setAgeRange(event.target.value)}
+                  className="min-h-12 w-full min-w-0 rounded-2xl border-2 border-zirin-brown/20 bg-white px-3 text-sm font-semibold text-zirin-brown-deep focus:border-zirin-terracotta focus:outline-none focus:ring-2 focus:ring-zirin-gold-warm/30"
+                >
+                  <option value="">Tous les âges</option>
+                  {ageRanges.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+
+            <div className="flex min-w-0 flex-col items-start gap-2 border-t border-zirin-brown/10 pt-4 text-xs font-semibold text-zirin-ink-muted sm:flex-row sm:items-center sm:justify-between">
+              <p aria-live="polite">
+                <span className="font-black text-zirin-brown">
+                  {filteredTales.length}
+                </span>{' '}
+                conte{filteredTales.length === 1 ? '' : 's'} trouvé
+                {filteredTales.length === 1 ? '' : 's'}
+              </p>
+              {hasActiveFilters && (
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className="min-h-11 rounded-full border border-zirin-brown/20 bg-zirin-sand/70 px-4 py-2 font-bold text-zirin-brown transition hover:bg-zirin-sand"
+                >
+                  Effacer les filtres
+                </button>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <MalianFrieze className="text-zirin-gold-warm/60" />
+
+        {filteredTales.length > 0 ? (
+          <ul className="flex w-full min-w-0 flex-col gap-4" role="list">
+            {filteredTales.map((tale, index) => (
+              <li key={tale.id}>
+                <Link
+                  to={`/contes/${tale.slug}`}
+                  className="group relative flex w-full min-w-0 flex-col justify-between overflow-hidden rounded-2xl border-2 border-zirin-brown/15 bg-white p-5 shadow-sm transition hover:border-zirin-terracotta/50 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zirin-primary sm:flex-row sm:items-center sm:gap-6 sm:p-6"
+                >
+                  <BogolanBackground className="text-zirin-brown/5" />
+
+                  <div className="relative z-10 flex min-w-0 flex-1 flex-col">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="max-w-full rounded-full border border-zirin-gold-warm/50 bg-zirin-sand/70 px-3 py-1 text-[10px] font-extrabold tracking-wider text-zirin-brown uppercase">
                         {tale.category}
                       </span>
-                    </div>
-                    <h2 className="mt-4 text-xl font-bold transition-colors group-hover:text-zirin-primary-text">
-                      {tale.title}
-                    </h2>
-                    <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-zirin-ink-muted">
-                      {tale.summary}
-                    </p>
-                    <div className="mt-4 flex items-center justify-between gap-3 border-t border-zirin-brown/10 pt-3 text-xs text-zirin-ink-muted">
-                      <span>{tale.ageRange}</span>
-                      <span className="inline-flex items-center gap-1">
-                        <Clock3 className="h-3.5 w-3.5" aria-hidden="true" />
-                        {tale.readingTime} min
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-zirin-brown">
+                        <Sparkles className="h-3 w-3 text-zirin-gold-warm" aria-hidden="true" />
+                        Conte #{index + 1}
                       </span>
                     </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <div className="flex min-h-48 flex-col items-center justify-center rounded-2xl border border-dashed border-zirin-brown/25 bg-white/50 px-6 text-center">
-              <BookOpen className="h-8 w-8 text-zirin-primary-text" aria-hidden="true" />
-              <h2 className="mt-3 text-lg font-bold">Aucun conte trouvé</h2>
+
+                    <h2 className="mt-3 break-words text-lg leading-snug font-bold text-zirin-brown-deep transition-colors group-hover:text-zirin-terracotta sm:text-xl">
+                      {tale.title}
+                    </h2>
+                    <p className="mt-2 break-words text-sm leading-relaxed text-zirin-ink-muted">
+                      {tale.summary}
+                    </p>
+
+                    <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-zirin-brown/10 pt-3 text-xs font-medium text-zirin-ink-muted">
+                      <span>{tale.ageRange}</span>
+                      <span className="inline-flex items-center gap-1.5">
+                        <Clock3 className="h-3.5 w-3.5 text-zirin-terracotta" aria-hidden="true" />
+                        {tale.readingTime} min de lecture
+                      </span>
+                    </div>
+                  </div>
+
+                  <span className="relative z-10 mt-5 inline-flex min-h-12 w-full shrink-0 items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-zirin-terracotta via-zirin-terracotta-warm to-zirin-terracotta px-5 py-3 text-sm font-extrabold text-white shadow-md shadow-zirin-terracotta/25 transition-all duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg sm:mt-0 sm:w-auto">
+                    Lire le conte
+                    <ArrowRight
+                      className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                      aria-hidden="true"
+                    />
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <section className="relative flex min-h-56 w-full flex-col items-center justify-center overflow-hidden rounded-3xl border-2 border-dashed border-zirin-brown/25 bg-gradient-to-b from-[#FFFDF9] to-[#FBF6EE] px-6 py-10 text-center shadow-sm">
+            <BogolanBackground className="text-zirin-brown/5" />
+            <div className="relative z-10 flex flex-col items-center">
+              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-zirin-gold-warm/20 text-zirin-brown">
+                <BookOpen className="h-6 w-6 text-zirin-terracotta" aria-hidden="true" />
+              </span>
+              <h2 className="mt-3 text-lg font-bold text-zirin-brown">Aucun conte trouvé</h2>
               <p className="mt-1 max-w-md text-sm text-zirin-ink-muted">
                 Essaie un autre mot ou retire un filtre pour retrouver les histoires.
               </p>
+              <button
+                type="button"
+                onClick={clearFilters}
+                className="mt-3 min-h-11 rounded-full bg-gradient-to-r from-zirin-terracotta to-zirin-terracotta-warm px-5 py-2 text-sm font-bold text-white shadow-md transition hover:shadow-lg"
+              >
+                Réinitialiser les filtres
+              </button>
             </div>
-          )}
-        </div>
+          </section>
+        )}
 
-        <p className="mt-3 text-xs leading-relaxed text-zirin-ink-muted">
-          Ces récits sont des créations contemporaines inspirées. Ils ne sont pas
-          présentés comme des transcriptions de contes traditionnels.
-        </p>
+        <MalianFrieze className="text-zirin-gold-warm/60" />
+
+        <footer className="flex w-full flex-col items-start gap-2 border-t-2 border-zirin-brown/15 pt-5 text-xs leading-relaxed text-zirin-ink-muted sm:flex-row sm:items-center sm:gap-3">
+          <BookOpen className="h-4 w-4 shrink-0 text-zirin-terracotta" aria-hidden="true" />
+          <p>
+            Les récits indiquent leur source et leur statut éditorial; aucune provenance
+            traditionnelle n’est présentée comme authentifiée sans source vérifiable.
+          </p>
+        </footer>
       </div>
     </section>
   );

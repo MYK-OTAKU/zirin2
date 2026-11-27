@@ -1,4 +1,6 @@
 import corpus from './zirin-contes-15-corrige.json';
+import djeliBabaCollection from './contes-maliens-djeli-baba.json';
+import societyTaleCollection from '../../../contes_societe_malienne.json';
 import type { Tale, TaleChapter } from '../domain/tale';
 
 interface TaleCorpus {
@@ -98,11 +100,118 @@ function parseTaleCorpus(value: unknown): TaleCorpus {
   return { schemaVersion, title, language, editorialNote, tales };
 }
 
+const supplementalCategories = [
+  'Justice et vérité',
+  'Générosité et solidarité',
+  'Nature et respect',
+  'Travail et fraternité',
+  'Paix et parole',
+  'Bonté et humilité',
+  'Prudence et sagesse',
+  'Patience et savoir-faire',
+  'Ruse et courage',
+  'Nature et transmission',
+] as const;
+
+const supplementalSummaries = [
+  'À Ségou, un tambour sacré révèle qui dit vrai lorsque le trésor royal disparaît.',
+  'Au cœur de la saison sèche, le dernier geste généreux de Kadiatou change le destin de Siby.',
+  'Un jeune chasseur choisit d’épargner une biche mystérieuse et découvre le pouvoir de la retenue.',
+  'Trois frères découvrent que le trésor de leur père se cache dans le travail accompli ensemble.',
+  'Un griot rappelle à deux villages leurs liens communs et transforme une querelle en partage.',
+  'La bonté de Balla est récompensée par un baobab, tandis que l’arrogance de sa marâtre se retourne contre elle.',
+  'Une tortue doit apprendre à garder le silence pour traverser le ciel sans danger.',
+  'À Djenné, un apprenti tisserand comprend que la patience donne à son travail une valeur durable.',
+  'Un lièvre fait appel à son intelligence pour libérer les animaux de la tyrannie du lion.',
+  'Un pêcheur transmet à son fils une promesse de respect et de protection du fleuve Djoliba.',
+] as const;
+
+const supplementalTales: Tale[] = djeliBabaCollection.contes.map((tale, index) => {
+  const category = supplementalCategories[index];
+  const summary = supplementalSummaries[index];
+
+  if (!category || !summary) {
+    throw new Error(`Les métadonnées du conte supplémentaire ${tale.id} sont manquantes.`);
+  }
+
+  return {
+    id: `conte-${String(tale.id + 15).padStart(3, '0')}`,
+    title: tale.titre,
+    slug: tale.titre
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLocaleLowerCase('fr')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, ''),
+    origin: {
+      country: 'Mali',
+      culture: null,
+      status: 'creation_originale_inspiree',
+      source: djeliBabaCollection.collection,
+      note: `Création contemporaine inspirée de la tradition orale malienne et de l'art du griot (${djeliBabaCollection.inspiration}). Ce récit n'est pas présenté comme une transcription traditionnelle authentifiée.`,
+    },
+    type: 'creation_inspiree',
+    ageRange: '8-12 ans',
+    category,
+    summary,
+    content: {
+      introduction: tale.proverbe_introductif,
+      chapters: [{ title: 'Le récit', text: tale.recit }],
+      conclusion: '',
+    },
+    moral: tale.morale,
+    readingTime: Math.ceil(tale.duree_estimee_sec / 60),
+    language: djeliBabaCollection.langue,
+    audioUrl: null,
+    coverImage: null,
+    tags: [tale.theme, tale.lieu, ...tale.personnages],
+  };
+});
+
+const societyTales: Tale[] = societyTaleCollection.contes.map((tale) => {
+  const firstSentence = tale.histoire.trim().split(/(?<=[.!?])\s+/u)[0] ?? tale.histoire;
+  const summary =
+    firstSentence.length > 160 ? `${firstSentence.slice(0, 157).trimEnd()}…` : firstSentence;
+
+  return {
+    id: `conte-societe-${String(tale.id).padStart(3, '0')}`,
+    title: tale.titre,
+    slug: tale.titre
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLocaleLowerCase('fr')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, ''),
+    origin: {
+      country: 'Mali',
+      culture: null,
+      status: 'creation_originale_inspiree',
+      source: societyTaleCollection.collection,
+      note: `Récit issu de la collection « ${societyTaleCollection.collection} ». Le fichier fourni ne précise pas de source de collecte permettant de l’authentifier comme transcription traditionnelle.`,
+    },
+    type: 'creation_inspiree',
+    ageRange: '8-12 ans',
+    category: tale.theme,
+    summary,
+    content: {
+      introduction: '',
+      chapters: [{ title: 'Le récit', text: tale.histoire }],
+      conclusion: '',
+    },
+    moral: tale.moralite,
+    readingTime: Math.max(1, Math.ceil(tale.histoire.trim().split(/\s+/).length / 200)),
+    language: 'fr',
+    audioUrl: null,
+    coverImage: null,
+    tags: [tale.region, tale.theme],
+  };
+});
+
 let validatedCorpus: TaleCorpus | undefined;
 
 export function getTales(): readonly Tale[] {
   validatedCorpus ??= parseTaleCorpus(corpus);
-  return validatedCorpus.tales;
+  return [...validatedCorpus.tales, ...supplementalTales, ...societyTales];
 }
 
 export function getTaleBySlug(slug: string): Tale | undefined {

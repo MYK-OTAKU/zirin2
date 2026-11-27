@@ -1,0 +1,118 @@
+{
+  "collection": "Trésors de la Parole Mandingue",
+  "inspiration": "Tradition orale malienne et art du griot (Djéli Baba Sissoko)",
+  "langue": "fr",
+  "nombre_contes": 10,
+  "contes": [
+    {
+      "id": 1,
+      "titre": "Le Tambour de Vérité du Roi de Ségou",
+      "theme": "Justice, honnêteté et responsabilité du pouvoir",
+      "personnages": ["Fama Mamadou", "Le Griot Toumani", "N'Tji le berger", "Le Conseiller Bakary"],
+      "lieu": "Ségou, au bord du fleuve Niger",
+      "proverbe_introductif": "Même si le mensonge court pendant cent ans, la vérité le rattrape en un seul matin.",
+      "recit": "À Ségou, le roi Mamadou possédait un tambour sacré recouvert d'une peau d'antilope blanche. Selon les anciens, ce tambour ne résonnait jamais sous la main d'un menteur. Un jour, le trésor royal disparut. Le conseiller Bakary accusa aussitôt N'Tji, un jeune berger humble qui passait près du palais. Le roi ordonna que tous les notables et le berger frappent le tambour devant l'assemblée. Chacun s'avança. Lorsque Bakary frappa la peau tendue, aucun son ne sortit, pas même un souffle. Lorsque N'Tji posa simplement sa paume sur le bois, un son profond et clair traversa tout Ségou, faisant vibrer les eaux du fleuve. Le conseiller avoua sa faute et comprit que l'autorité ne protège jamais contre la vérité.",
+      "morale": "La vérité n'a pas besoin d'ornements pour se faire entendre ; elle parle d'elle-même.",
+      "duree_estimee_sec": 150
+    },
+    {
+      "id": 2,
+      "titre": "La Calebasse d'Eau de Kadiatou",
+      "theme": "Générosité, hospitalité (Djatiguiya) et solidarité",
+      "personnages": ["Kadiatou", "Le Vieil Étranger", "Les Villageois de Siby"],
+      "lieu": "Les falaises et vallées de Siby",
+      "proverbe_introductif": "La main qui donne est toujours au-dessus de la main qui reçoit.",
+      "recit": "Pendant la grande saison sèche, les puits de Siby s'étaient taris et chaque famille gardait précieusement les dernières gouttes d'eau. Kadiatou, une veuve vivant à l'entrée du village, ne possédait plus qu'une seule calebasse d'eau fraîche. À midi, un vieil étranger couvert de poussière frappa à sa porte, exténué par la marche. Sans hésiter, Kadiatou lui offrit toute sa calebasse. L'homme but lentement, la remercia et lui demanda de verser les trois dernières gouttes au pied du grand karité derrière sa case. Le lendemain à l'aube, une source claire et abondante jaillit sous les racines de l'arbre, abreuvant tout le village pendant des générations.",
+      "morale": "L'hospitalité offerte dans le dénuement ouvre les portes de l'abondance.",
+      "duree_estimee_sec": 145
+    },
+    {
+      "id": 3,
+      "titre": "Le Chasseur et la Biche aux Sabots d'Or",
+      "theme": "Respect de la nature, maîtrise de soi et parole donnée",
+      "personnages": ["Donso Karim", "La Biche Mystérieuse", "Le Maître des Chasseurs"],
+      "lieu": "La grande brousse du Mandé",
+      "proverbe_introductif": "Le vrai chasseur ne tue pas ce qui lui demande asile.",
+      "recit": "Karim était un jeune chasseur du Mandé, adroit à l'arc mais pressé d'obtenir la gloire. Un matin, il poursuivit une biche aux sabots étincelants jusque dans une clairière sacrée. Épuisée, la biche s'arrêta, le regarda droit dans les yeux et lui parla d'une voix humaine : épargne-moi, car je porte la vie de toute la forêt. Karim abaissa son arc, se souvenant des enseignements de son maître sur l'équilibre entre l'homme et la brousse. En remerciement, la biche lui révéla l'emplacement des plantes médicinales capables de guérir la fièvre qui frappait son village. De retour chez lui, Karim sauva les siens et devint un maître respecté.",
+      "morale": "La vraie force réside dans la retenue et le respect de toute forme de vie.",
+      "duree_estimee_sec": 155
+    },
+    {
+      "id": 4,
+      "titre": "Les Trois Fils et la Houe du Père",
+      "theme": "Travail, persévérance et union fraternelle",
+      "personnages": ["Le Vieux Moussa", "Seydou", "Amadou", "Ibrahima"],
+      "lieu": "Un village agricole près de Sikasso",
+      "proverbe_introductif": "La terre ne ment jamais à celui qui la travaille avec sueur.",
+      "recit": "Sentant ses forces décliner, le vieux cultivateur Moussa appela ses trois fils qui passaient leur temps à se disputer l'héritage. Il leur confia qu'un trésor inestimable était enfoui dans leur grand champ familial, mais qu'il ne se souvenait plus de l'endroit exact. Dès le lendemain, les trois frères prirent leurs houes et retournèrent la terre du champ de bout en bout, jour après jour, sans trouver la moindre pièce d'or. Déçus mais encouragés par leur mère, ils semèrent du mil et du maïs sur cette terre si bien labourée. À la saison des récoltes, les greniers débordèrent comme jamais auparavant, et les trois frères comprirent enfin quel était le véritable trésor laissé par leur père.",
+      "morale": "La richesse durable naît de l'effort uni et du travail patient de la terre.",
+      "duree_estimee_sec": 140
+    },
+    {
+      "id": 5,
+      "titre": "Le Ngoni qui Ne Jouait que la Paix",
+      "theme": "Pouvoir de la parole, réconciliation et sagesse du griot",
+      "personnages": ["Djéli Sory", "Chef Demba", "Chef Konaté"],
+      "lieu": "Deux villages voisins séparés par une colline",
+      "proverbe_introductif": "Là où la parole s'assoit, le fer perd sa force.",
+      "recit": "Deux villages voisins s'apprêtaient à s'affronter pour la possession d'un pâturage. Les lances étaient prêtes et la colère grondait des deux côtés. Au lever du soleil, le vieux griot Sory s'avança seul entre les deux camps, son ngoni à la main. Il commença à pincer les cordes et à chanter les généalogies communes des deux clans, rappelant comment leurs ancêtres avaient partagé le même pain et traversé les mêmes épreuves. À mesure que la musique s'élevait, les souvenirs ravivèrent les liens du sang. Les deux chefs abaissèrent leurs armes, s'avancèrent l'un vers l'autre et décidèrent de partager le pâturage selon les saisons.",
+      "morale": "La mémoire partagée et la parole sage désarment les plus grandes colères.",
+      "duree_estimee_sec": 150
+    },
+    {
+      "id": 6,
+      "titre": "L'Orphelin et le Baobab Bavard",
+      "theme": "Patience, humilité et récompense de la bonté",
+      "personnages": ["Balla l'orphelin", "L'Esprit du Baobab", "La Marâtre Aïssata"],
+      "lieu": "Un village du Bélédougou",
+      "proverbe_introductif": "L'arbre qui écoute les pleurs de l'orphelin finit toujours par lui offrir son ombre.",
+      "recit": "Balla, un jeune orphelin, était chargé des tâches les plus dures par sa marâtre, mais il accomplissait tout sans jamais se plaindre. Chaque soir, il allait nettoyer les racines d'un immense baobab ancien et lui racontait sa journée avec douceur. Un jour de grand vent, le baobab ouvrit une cavité dans son tronc et invita Balla à y cueillir trois fruits. En les ouvrant chez lui, le garçon découvrit des graines d'or pur et des étoffes tissées avec finesse. Jalouse, sa marâtre envoya son propre fils exiger des fruits au baobab avec arrogance. L'arbre ne lui donna que des cosses remplies de guêpes qui le poursuivirent jusqu'au village.",
+      "morale": "La douceur du cœur attire la bénédiction, tandis que l'arrogance récolte son propre trouble.",
+      "duree_estimee_sec": 155
+    },
+    {
+      "id": 7,
+      "titre": "La Parole de l'Hirondelle et la Tortue Pressée",
+      "theme": "Prudence, écoute des conseils et maîtrise de la parole",
+      "personnages": ["Koro la Tortue", "Les Deux Hirondelles", "Les Habitants du Marigot"],
+      "lieu": "Un grand marigot du Macina",
+      "proverbe_introductif": "C'est sa propre bouche qui trahit souvent celui qui ne sait pas se taire.",
+      "recit": "Lorsque le grand marigot du Macina commença à s'assécher, Koro la tortue supplia deux hirondelles de l'emmener vers un lac lointain. Les oiseaux acceptèrent à une condition stricte : tenir fermement un bâton entre leurs becs pendant que Koro le mordrait en son milieu, sans jamais ouvrir la bouche durant le vol. Alors qu'ils survolaient un village, des enfants s'écrièrent avec admiration devant cet attelage insolite. Voulant répondre fièrement que l'idée venait d'elle, Koro ouvrit la bouche pour parler et chuta lourdement dans un tas de paille, s'en tirant avec une carapace fissurée et une grande leçon d'humilité.",
+      "morale": "Savoir garder le silence au moment opportun protège des chutes inutiles.",
+      "duree_estimee_sec": 135
+    },
+    {
+      "id": 8,
+      "titre": "Le Tisserand de Djenné et l'Étoffe du Destin",
+      "theme": "Excellence artisanale, patience et valeur du savoir-faire",
+      "personnages": ["Maître Ousmane", "Le Jeune Apprenti Boubacar", "Le Marchand de Tombouctou"],
+      "lieu": "La ville ancienne de Djenné",
+      "proverbe_introductif": "Un fil patient finit toujours par vêtir un roi.",
+      "recit": "Dans les ruelles de Djenné, le jeune apprenti Boubacar voulait tisser des pagnes en un seul jour pour gagner vite de l'argent, quitte à laisser des nœuds et des fils lâches. Son maître Ousmane lui demanda de tisser une seule bande parfaite, en prenant tout le temps nécessaire, même si cela prenait une lune entière. Boubacar obéit avec application. Lorsque le grand marchand de Tombouctou visita l'atelier, il ignora les tissus bâclés et acheta l'unique bande parfaite au prix de dix pièces normales, admirant la régularité et l'âme mise dans chaque fil.",
+      "morale": "La qualité et la patience donnent à l'œuvre humaine une valeur que la hâte ne pourra jamais atteindre.",
+      "duree_estimee_sec": 140
+    },
+    {
+      "id": 9,
+      "titre": "Le Lion, le Lièvre et le Puits du Savoir",
+      "theme": "Intelligence, ruse face à la tyrannie et courage des faibles",
+      "personnages": ["Djarra le Lion", "Sonsanni le Lièvre", "Les Animaux de la Savane"],
+      "lieu": "Une savane arborée près de Kita",
+      "proverbe_introductif": "La ruse du petit lièvre pèse parfois plus lourd que la patte du lion.",
+      "recit": "Djarra le lion exigeait chaque jour un tribut abusif des animaux de la savane, semant la terreur autour du seul point d'eau. Sonsanni le lièvre se présenta en retard avec un air effrayé et déclara qu'un autre lion encore plus grand vivait au fond du puits et revendiquait la savane. Furieux, Djarra courut au puits, se pencha au-dessus de la margelle et vit son propre reflet dans l'eau sombre. Prenant son image pour un rival, il rugit et bondit dans le puits pour l'attaquer, libérant ainsi tous les animaux de sa tyrannie.",
+      "morale": "L'orgueil aveugle les puissants et les fait tomber dans leur propre piège.",
+      "duree_estimee_sec": 145
+    },
+    {
+      "id": 10,
+      "titre": "La Promesse du Fleuve Djoliba",
+      "theme": "Reconnaissance, mémoire des ancêtres et respect des engagements",
+      "personnages": ["Le Pêcheur Bozo Mamadou", "La Mère des Eaux", "Le Fils Sékou"],
+      "lieu": "Les rives du fleuve Niger (Djoliba) à Bamako",
+      "proverbe_introductif": "Celui qui oublie la source qui l'a abreuvé finit par marcher dans le désert.",
+      "recit": "Mamadou, un pêcheur Bozo respectueux des traditions, remettait toujours à l'eau les plus petits poissons afin que le fleuve Djoliba ne s'appauvrisse jamais. Une nuit de tempête, sa pirogue chavira au milieu des flots déchaînés. Alors qu'il perdait ses forces, un grand poisson argenté le porta doucement jusqu'à la rive et lui rappela que le fleuve n'oublie jamais ceux qui le protègent. Devenu vieux, Mamadou transmit cette règle sacrée à son fils Sékou : prendre seulement ce qui est nécessaire et honorer la nature qui nourrit les hommes.",
+      "morale": "Protéger ce qui nous nourrit aujourd'hui assure la survie des enfants de demain.",
+      "duree_estimee_sec": 150
+    }
+  ]
+}

@@ -22,7 +22,7 @@ export function RiddlesPage() {
   };
 
   return (
-    <section className="mx-auto flex w-full min-w-0 min-h-[calc(100dvh-6rem)] max-w-6xl flex-col px-4 pt-4 pb-12 sm:px-8 sm:pt-6">
+    <section className="mx-auto flex w-full min-w-0 min-h-full max-w-6xl flex-col px-4 pt-4 pb-28 sm:px-8 sm:pt-6">
       {/* Brand & navigation bar */}
       <header className="flex w-full min-w-0 flex-col items-start gap-3 border-b border-zirin-brown/10 pb-4">
         <ZirinBrand />

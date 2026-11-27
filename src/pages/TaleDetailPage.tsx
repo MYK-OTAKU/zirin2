@@ -24,7 +24,7 @@ export function TaleDetailPage() {
         </Link>
       </header>
 
-      <div className="mt-6 min-h-0 flex-1 overflow-y-auto pb-4">
+      <div className="mt-6 min-h-0 flex-none overflow-visible pb-4 lg:flex-1 lg:overflow-y-auto">
         <article className="mx-auto w-full max-w-3xl">
           <div className="rounded-3xl border border-zirin-brown/10 bg-white/75 p-5 shadow-sm sm:p-8">
             <p className="text-sm font-semibold text-zirin-primary-text">{tale.category}</p>
@@ -70,9 +70,11 @@ export function TaleDetailPage() {
           </div>
 
           <div className="mt-6 rounded-3xl border border-zirin-brown/10 bg-zirin-ivory px-5 py-6 sm:px-10 sm:py-9">
-            <p className="font-[family-name:var(--font-display)] text-lg leading-relaxed text-zirin-brown sm:text-xl">
-              {tale.content.introduction}
-            </p>
+            {tale.content.introduction && (
+              <p className="font-[family-name:var(--font-display)] text-lg leading-relaxed text-zirin-brown sm:text-xl">
+                {tale.content.introduction}
+              </p>
+            )}
 
             <div className="mt-7 space-y-7">
               {tale.content.chapters.map((chapter, index) => (
@@ -85,9 +87,11 @@ export function TaleDetailPage() {
               ))}
             </div>
 
-            <p className="mt-7 border-t border-zirin-brown/10 pt-6 text-base leading-[1.9] text-zirin-ink sm:text-lg">
-              {tale.content.conclusion}
-            </p>
+            {tale.content.conclusion && (
+              <p className="mt-7 border-t border-zirin-brown/10 pt-6 text-base leading-[1.9] text-zirin-ink sm:text-lg">
+                {tale.content.conclusion}
+              </p>
+            )}
           </div>
 
           <aside className="mt-4 rounded-2xl bg-zirin-sand/70 p-5">
