@@ -1,6 +1,6 @@
 import corpus from './zirin-contes-15-corrige.json';
 import djeliBabaCollection from './contes-maliens-djeli-baba.json';
-import societyTaleCollection from '../../../contes_societe_malienne.json';
+import societyTaleCollection from './contes-societe-malienne-vol2.json';
 import societyTaleCollectionVol2 from './contes-societe-malienne-vol2.json';
 import type { Tale, TaleChapter } from '../domain/tale';
 
