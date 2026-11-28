@@ -1,6 +1,7 @@
 import corpus from './zirin-contes-15-corrige.json';
 import djeliBabaCollection from './contes-maliens-djeli-baba.json';
 import societyTaleCollection from '../../../contes_societe_malienne.json';
+import societyTaleCollectionVol2 from './contes-societe-malienne-vol2.json';
 import type { Tale, TaleChapter } from '../domain/tale';
 
 interface TaleCorpus {
@@ -207,11 +208,50 @@ const societyTales: Tale[] = societyTaleCollection.contes.map((tale) => {
   };
 });
 
+const societyTalesVol2: Tale[] = societyTaleCollectionVol2.contes.map((tale) => {
+  const firstSentence = tale.histoire.trim().split(/(?<=[.!?])\s+/u)[0] ?? tale.histoire;
+  const summary =
+    firstSentence.length > 160 ? `${firstSentence.slice(0, 157).trimEnd()}…` : firstSentence;
+
+  return {
+    id: `conte-societe-vol2-${String(tale.id).padStart(3, '0')}`,
+    title: tale.titre,
+    slug: tale.titre
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLocaleLowerCase('fr')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, ''),
+    origin: {
+      country: 'Mali',
+      culture: null,
+      status: 'creation_originale_inspiree',
+      source: societyTaleCollectionVol2.collection,
+      note: `Récit issu de la collection « ${societyTaleCollectionVol2.collection} ». Le fichier fourni ne précise pas de source de collecte permettant de l’authentifier comme transcription traditionnelle.`,
+    },
+    type: 'creation_inspiree',
+    ageRange: '8-12 ans',
+    category: tale.theme,
+    summary,
+    content: {
+      introduction: '',
+      chapters: [{ title: 'Le récit', text: tale.histoire }],
+      conclusion: '',
+    },
+    moral: tale.moralite,
+    readingTime: Math.max(1, Math.ceil(tale.histoire.trim().split(/\s+/).length / 200)),
+    language: 'fr',
+    audioUrl: null,
+    coverImage: null,
+    tags: [tale.region, tale.theme],
+  };
+});
+
 let validatedCorpus: TaleCorpus | undefined;
 
 export function getTales(): readonly Tale[] {
   validatedCorpus ??= parseTaleCorpus(corpus);
-  return [...validatedCorpus.tales, ...supplementalTales, ...societyTales];
+  return [...validatedCorpus.tales, ...supplementalTales, ...societyTales, ...societyTalesVol2];
 }
 
 export function getTaleBySlug(slug: string): Tale | undefined {

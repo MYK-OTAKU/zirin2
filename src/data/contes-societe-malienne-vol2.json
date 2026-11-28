@@ -1,0 +1,127 @@
+{
+  "collection": "Trésors de la Parole Mandingue et Malienne - Volume 2",
+  "narrateur": "Maître de la parole et gardien de la mémoire (Djeli)",
+  "nombre_de_contes": 15,
+  "contes": [
+    {
+      "id": 21,
+      "titre": "Le Chasseur et le Lion Blessé du Mandé",
+      "region": "Siby (Mandé)",
+      "theme": "La reconnaissance et la compassion",
+      "moralite": "Le bien que tu fais même à une bête sauvage finit toujours par te revenir au moment du danger.",
+      "histoire": "Dans les collines de Siby, un chasseur nommé Famakan croisa un lion qui boitait à cause d'une grosse épine plantée dans sa patte. Au lieu de tirer sa flèche, Famakan s'approcha doucement et retira l'épine. Des années plus tard, alors que Famakan s'était égaré dans une forêt obscure encerclé par des hyènes affamées, un grand lion surgit, fit fuir la meute d'un rugissement et guida le chasseur jusqu'aux portes de son village."
+    },
+    {
+      "id": 22,
+      "titre": "La Jarre Percée de Bamako",
+      "region": "Bamako",
+      "theme": "L'acceptation de soi et l'utilité de chacun",
+      "moralite": "Nos imperfections ne nous rendent pas inutiles ; elles arrosent souvent des chemins que nous ignorons.",
+      "histoire": "Une porteuse d'eau de Bamako descendait chaque matin au fleuve Niger avec deux jarres : l'une intacte, l'autre fêlée qui perdait la moitié de son eau sur le trajet. Honteuse, la jarre fêlée s'excusa un jour auprès de la femme. Celle-ci sourit et lui montra le bord du sentier : du côté de la jarre fêlée poussait une magnifique haie de fleurs sauvages et d'herbes médicinales, arrosées chaque jour par ses gouttes perdues."
+    },
+    {
+      "id": 23,
+      "titre": "Le Serment des Deux Frères de Kati",
+      "region": "Kati",
+      "theme": "La fraternité et la loyauté",
+      "moralite": "Deux arbres qui unissent leurs racines résistent à la plus violente tornade.",
+      "histoire": "À Kati, deux frères, Modibo et Sekou, héritèrent d'un champ de mil. Chaque nuit, Modibo, qui était célibataire, portait en secret des gerbes de mil dans le grenier de Sekou, pensant que son frère avait une famille à nourrir. Au même moment, Sekou portait des gerbes dans le grenier de Modibo, pensant que son frère n'avait personne pour l'aider dans ses vieux jours. Une nuit de pleine lune, ils se croisèrent à mi-chemin, les bras chargés, et pleurèrent de joie devant la grandeur de leur amour fraternel."
+    },
+    {
+      "id": 24,
+      "titre": "La Courge Magique de Markala",
+      "region": "Markala (Ségou)",
+      "theme": "L'honnêteté récompensée",
+      "moralite": "La vérité ouvre les greniers de l'abondance, le mensonge ferme toutes les portes.",
+      "histoire": "Un pêcheur pauvre de Markala laissa tomber sa vieille hache de fer dans les eaux profondes du fleuve. Un génie de l'eau apparut et lui tendit d'abord une hache en or, puis une hache en argent. Le pêcheur refusa les deux, affirmant que seule la vieille hache en fer était la sienne. Touché par sa droiture, le génie lui offrit les trois haches et bénit ses filets pour le reste de sa vie."
+    },
+    {
+      "id": 25,
+      "titre": "Le Baobab qui Parlait aux Enfants de Macina",
+      "region": "Macina",
+      "theme": "Le respect des aînés et de la nature",
+      "moralite": "Qui se moque des racines finit par sécher sous le soleil de midi.",
+      "histoire": "Dans un village du Macina se dressait un vieux baobab au tronc creux. Les enfants insolents lui jetaient des pierres, tandis que la petite Mariama venait lui raconter ses journées et nettoyer son pied. Un jour d'orage soudain, l'arbre ouvrit son écorce pour abriter Mariama et les enfants qui demandèrent pardon. Depuis ce jour, tout le village vénéra le vieux baobab comme un grand-père protecteur."
+    },
+    {
+      "id": 26,
+      "titre": "Le Roi et le Paysan de Niafunké",
+      "region": "Niafunké",
+      "theme": "La dignité du travail",
+      "moralite": "La couronne brille sur la tête du roi, mais c'est la houe du paysan qui nourrit le royaume.",
+      "histoire": "Un souverain de Niafunké, fier de ses richesses, demanda à un vieux laboureur pourquoi il travaillait encore sous le soleil brûlant. Le vieillard répondit : « Nos ancêtres ont planté des arbres dont nous mangeons les fruits aujourd'hui ; je plante à mon tour pour que nos enfants mangent demain. » Ému par cette sagesse, le roi lui offrit une bourse d'or et honora les cultivateurs devant toute sa cour."
+    },
+    {
+      "id": 27,
+      "titre": "L'Épreuve du Silence à Kidal",
+      "region": "Kidal (Adrar des Ifoghas)",
+      "theme": "La maîtrise de la parole",
+      "moralite": "La parole est comme une flèche : une fois lancée, elle ne revient plus à l'arc.",
+      "histoire": "Dans les montagnes de l'Adrar, un chef touareg voulut choisir son successeur parmi ses trois neveux. Il leur confia à chacun une outre d'eau et leur demanda de traverser le désert sans prononcer une parole inutile. Les deux premiers gaspillèrent leur souffle en disputes et arrivèrent épuisés. Le troisième garda le silence, observa les étoiles et atteignit l'oasis avec une outre encore pleine."
+    },
+    {
+      "id": 28,
+      "titre": "La Plume de Calao de Yanfolila",
+      "region": "Yanfolila (Wassoulou)",
+      "theme": "La modestie et la persévérance",
+      "moralite": "Ce n'est pas la taille de l'oiseau qui fait la hauteur de son vol, mais la force de ses ailes.",
+      "histoire": "À Yanfolila, tous les oiseaux se moquaient du petit roitelet qui voulait devenir leur roi en volant le plus haut. Lorsque l'aigle royal atteignit les nuages, épuisé, le petit roitelet qui s'était caché sous son aile s'envola encore plus haut vers le soleil. Il apprit aux animaux que l'intelligence et l'humilité peuvent surpasser la force brute."
+    },
+    {
+      "id": 29,
+      "titre": "Le Miel des Abeilles de Kéniéba",
+      "region": "Kéniéba",
+      "theme": "La patience et la douceur",
+      "moralite": "On récolte plus de miel avec la fumée douce qu'avec le feu qui détruit la ruche.",
+      "histoire": "Deux jeunes gens de Kéniéba trouvèrent une ruche pleine de miel dans un rocher. Le premier voulut brûler l'essaim pour prendre tout le miel d'un coup, mais les abeilles furieuses le mirent en fuite. Le second utilisa quelques herbes parfumées pour apaiser les abeilles, récolta une part du miel et laissa le reste pour l'essaim. Il put ainsi revenir récolter du miel chaque saison."
+    },
+    {
+      "id": 30,
+      "titre": "Le Miroir d'Eau de Diré",
+      "region": "Diré",
+      "theme": "La vérité et la justice",
+      "moralite": "La vérité est comme l'huile dans l'eau : elle finit toujours par remonter à la surface.",
+      "histoire": "À Diré, un homme accusa injustement son voisin de lui avoir volé une bague en argent. Le cadi du village fit apporter une bassine d'eau claire et demanda aux deux hommes de s'y regarder en silence. Incapable de soutenir son propre regard dans l'eau limpide, le menteur finit par avouer sa supercherie devant tout le village."
+    },
+    {
+      "id": 31,
+      "titre": "Les Deux Piroguiers de Koulikoro",
+      "region": "Koulikoro",
+      "theme": "La coopération",
+      "moralite": "Si deux pagayeurs rament en sens inverse, la pirogue tourne en rond et n'atteint jamais la rive.",
+      "histoire": "Sur le fleuve Niger à Koulikoro, deux frères héritèrent d'une grande pirogue. Fâchés après une dispute, chacun rama de son côté sans écouter l'autre, faisant tournoyer l'embarcation au milieu des rapides. Voyant le danger, ils accordèrent enfin leurs coups de pagaie au rythme d'un chant bozo et atteignirent la berge sains et saufs."
+    },
+    {
+      "id": 32,
+      "titre": "Le Grenier de la Fourmi de Yorosso",
+      "region": "Yorosso",
+      "theme": "Le travail et la prévoyance",
+      "moralite": "Le rire de la saison des pluies devient les larmes de la saison sèche pour celui qui ne travaille pas.",
+      "histoire": "À Yorosso, la cigale passait ses journées à chanter sur les tiges de mil pendant que la fourmi transportait patiemment des grains sous terre. Lorsque l'harmattan souffla et que les champs devinrent nus, la fourmi partagea généreusement une part de ses réserves avec la cigale, à condition que celle-ci l'aide à préparer la terre aux premières pluies."
+    },
+    {
+      "id": 33,
+      "titre": "Le Tambour Sacré de Baraouéli",
+      "region": "Baraouéli",
+      "theme": "La mémoire collective",
+      "moralite": "Un peuple qui oublie le son de son tambour perd le chemin de sa propre maison.",
+      "histoire": "À Baraouéli, un jeune chef voulut remplacer le vieux tambour ancestral par des instruments étrangers, trouvant le bois ancien trop usé. Mais lors d'une grande assemblée, personne ne reconnut les rythmes de ralliement. Le vieux griot ressortit le tambour sacré, et dès les premiers battements, les cœurs vibrèrent à l'unisson, rappelant à chacun son histoire et ses devoirs."
+    },
+    {
+      "id": 34,
+      "titre": "La Source Cachée de Hombori",
+      "region": "Hombori (Mopti)",
+      "theme": "La persévérance",
+      "moralite": "L'eau vive se cache souvent sous la pierre la plus dure ; seul celui qui creuse avec foi la découvre.",
+      "histoire": "Au pied des monts de Hombori, les habitants cherchaient de l'eau. Tous abandonnèrent après quelques coups de pioche dans la roche rouge. Seule une vieille femme continua de creuser chaque matin avec patience. Au septième jour, une source cristalline jaillit de la pierre, donnant naissance à un puits qui porte encore son nom."
+    },
+    {
+      "id": 35,
+      "titre": "Le Talisman du Vieillard de Kita",
+      "region": "Kita",
+      "theme": "La confiance en soi et le courage",
+      "moralite": "La vraie force ne réside pas dans l'amulette au cou, mais dans le courage qui bat dans la poitrine.",
+      "histoire": "Un jeune guerrier de Kita tremblait avant sa première épreuve. Un vieux sage lui remit un petit sachet de cuir cousu, lui assurant qu'il le rendrait invincible. Fort de cette croyance, le jeune homme accomplit des prodiges de bravoure. Au retour, le sage ouvrit le sachet devant lui : il ne contenait qu'un simple caillou ramassé sur la route."
+    }
+  ]
+}

@@ -82,7 +82,7 @@ export function TalesPage() {
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5">
                   <Sparkles className="h-3.5 w-3.5 text-zirin-gold-light" aria-hidden="true" />
-                  20 nouveaux récits
+                  {tales.length - 15} contes complémentaires
                 </span>
               </div>
             </div>
